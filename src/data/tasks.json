@@ -1,0 +1,5652 @@
+{
+  "meta": {
+    "title": "Математика. Тетрадь-тренажёр, 4 класс",
+    "author": "И. Е. Андреева",
+    "year": 2021,
+    "isbn": "978-985-599-182-4",
+    "pagination": "Книжная страница N = PDF-страница N+1. Содержание — кн. с. 3–63 (PDF 4–64). Пропущены обложка, титул, выходные данные, оглавление, задняя обложка.",
+    "copyright_note": "Книга защищена авторским правом. Каталог — внутренний эталон типов, схем ввода и ответов для тренажёра. Для публикации на GitHub Pages предпочтительно генерировать задания тех же типов, а не копировать формулировки дословно.",
+    "schema": {
+      "task_fields": [
+        "id",
+        "section_id",
+        "subsection_id",
+        "book_page",
+        "pdf_page",
+        "number",
+        "type",
+        "prompt",
+        "items",
+        "answer",
+        "answer_entry",
+        "manual",
+        "manual_note",
+        "generatable",
+        "generator",
+        "note",
+        "book_error"
+      ],
+      "answer_entry_values": [
+        "number",
+        "compound_measure",
+        "number_list",
+        "sign",
+        "boolean_and_number",
+        "equation_and_number",
+        "pairs",
+        "choice",
+        "integer",
+        "drawing",
+        "digits",
+        "expansion",
+        "spaced_number",
+        "index_list",
+        "time",
+        "roman_or_integer",
+        "text_or_measure",
+        "text_or_number",
+        "number_and_choice",
+        "quotient_remainder",
+        "order_and_number",
+        "dividend_and_digits",
+        "choice_and_number",
+        "boolean_and_correction",
+        "none"
+      ],
+      "units": "Для величин канонический ответ + список acceptable (эквивалентные единицы). Автопроверка должна нормализовать единицы, а не требовать одну запись."
+    }
+  },
+  "sections": [
+    {
+      "id": "povtorenie",
+      "title": "Повторение",
+      "book_pages": [
+        3,
+        10
+      ],
+      "pdf_pages": [
+        4,
+        11
+      ],
+      "subsections": [
+        {
+          "id": "povtorenie-arifmetika",
+          "title": "Нумерация, сложение и вычитание, уравнения",
+          "book_pages": [
+            3,
+            6
+          ],
+          "pdf_pages": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "povtorenie-umnozhenie-delenie",
+          "title": "Умножение и деление",
+          "book_pages": [
+            7,
+            8
+          ],
+          "pdf_pages": [
+            8,
+            9
+          ]
+        },
+        {
+          "id": "povtorenie-doli-edinicy",
+          "title": "Доли числа и единицы величин",
+          "book_pages": [
+            9,
+            10
+          ],
+          "pdf_pages": [
+            10,
+            11
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mnogoznachnye",
+      "title": "Многозначные числа от 1000 до 1 000 000",
+      "book_pages": [
+        11,
+        19
+      ],
+      "pdf_pages": [
+        12,
+        20
+      ],
+      "subsections": [
+        {
+          "id": "numeraciya",
+          "title": "Нумерация",
+          "book_pages": [
+            11,
+            15
+          ],
+          "pdf_pages": [
+            12,
+            16
+          ]
+        },
+        {
+          "id": "edinicy-dliny-vremeni",
+          "title": "Единицы длины (мм), времени (неделя, месяц, год, век)",
+          "book_pages": [
+            16,
+            19
+          ],
+          "pdf_pages": [
+            17,
+            20
+          ]
+        }
+      ]
+    },
+    {
+      "id": "diagrammy",
+      "title": "Диаграммы",
+      "book_pages": [
+        20,
+        22
+      ],
+      "pdf_pages": [
+        21,
+        23
+      ],
+      "subsections": []
+    },
+    {
+      "id": "ploshchad",
+      "title": "Площадь",
+      "book_pages": [
+        23,
+        24
+      ],
+      "pdf_pages": [
+        24,
+        25
+      ],
+      "subsections": []
+    },
+    {
+      "id": "slozhenie-vychitanie",
+      "title": "Сложение и вычитание",
+      "book_pages": [
+        25,
+        26
+      ],
+      "pdf_pages": [
+        26,
+        27
+      ],
+      "subsections": [
+        {
+          "id": "pismennoe-slozhenie-vychitanie",
+          "title": "Письменное сложение и вычитание",
+          "book_pages": [
+            25,
+            25
+          ],
+          "pdf_pages": [
+            26,
+            26
+          ]
+        },
+        {
+          "id": "chetvertoe-proporcionalnoe-otnosheniya",
+          "title": "Задачи на четвёртое пропорциональное: способом отношений",
+          "book_pages": [
+            26,
+            26
+          ],
+          "pdf_pages": [
+            27,
+            27
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dvizhenie",
+      "title": "Задачи на встречное движение и на движение в противоположных направлениях",
+      "book_pages": [
+        27,
+        35
+      ],
+      "pdf_pages": [
+        28,
+        36
+      ],
+      "subsections": [
+        {
+          "id": "dvizhenie-protivopolozhnye",
+          "title": "Движение в противоположных направлениях",
+          "book_pages": [
+            28,
+            28
+          ],
+          "pdf_pages": [
+            29,
+            29
+          ]
+        },
+        {
+          "id": "dvizhenie-vstrechnoe",
+          "title": "Встречное движение",
+          "book_pages": [
+            29,
+            29
+          ],
+          "pdf_pages": [
+            30,
+            30
+          ]
+        },
+        {
+          "id": "pismennoe-slozhenie-velichin",
+          "title": "Письменное сложение и вычитание числовых значений длины, массы, времени, цены",
+          "book_pages": [
+            30,
+            33
+          ],
+          "pdf_pages": [
+            31,
+            34
+          ]
+        },
+        {
+          "id": "vremya-nachala-prodolzhitelnosti",
+          "title": "Время начала и продолжительности события",
+          "book_pages": [
+            34,
+            35
+          ],
+          "pdf_pages": [
+            35,
+            36
+          ]
+        }
+      ]
+    },
+    {
+      "id": "umnozhenie-delenie",
+      "title": "Умножение и деление",
+      "book_pages": [
+        36,
+        63
+      ],
+      "pdf_pages": [
+        37,
+        64
+      ],
+      "subsections": [
+        {
+          "id": "pism-umn-na-odnoznachnoe",
+          "title": "Письменное умножение многозначного на однозначное",
+          "book_pages": [
+            36,
+            37
+          ],
+          "pdf_pages": [
+            37,
+            38
+          ]
+        },
+        {
+          "id": "chetvertoe-proporcionalnoe-postoyannaya",
+          "title": "Задачи на четвёртое пропорциональное (постоянная величина)",
+          "book_pages": [
+            38,
+            39
+          ],
+          "pdf_pages": [
+            39,
+            40
+          ]
+        },
+        {
+          "id": "pism-del-na-odnoznachnoe",
+          "title": "Письменное деление на однозначное, сокращённая запись",
+          "book_pages": [
+            40,
+            43
+          ],
+          "pdf_pages": [
+            41,
+            44
+          ]
+        },
+        {
+          "id": "umn-del-na-10-100-1000",
+          "title": "Умножение и деление на 10, 100, 1000",
+          "book_pages": [
+            44,
+            44
+          ],
+          "pdf_pages": [
+            45,
+            45
+          ]
+        },
+        {
+          "id": "sochetatelnoe-peremestitelnoe",
+          "title": "Сочетательное и переместительное свойства умножения",
+          "book_pages": [
+            45,
+            47
+          ],
+          "pdf_pages": [
+            46,
+            48
+          ]
+        },
+        {
+          "id": "umn-vida-612-500",
+          "title": "Письменное умножение вида 612·500, 260·400",
+          "book_pages": [
+            48,
+            49
+          ],
+          "pdf_pages": [
+            49,
+            50
+          ]
+        },
+        {
+          "id": "delenie-na-proizvedenie",
+          "title": "Деление на произведение",
+          "book_pages": [
+            50,
+            50
+          ],
+          "pdf_pages": [
+            51,
+            51
+          ]
+        },
+        {
+          "id": "ustnoe-delenie-360-30",
+          "title": "Устное деление вида 360:30",
+          "book_pages": [
+            51,
+            52
+          ],
+          "pdf_pages": [
+            52,
+            53
+          ]
+        },
+        {
+          "id": "ustnoe-delenie-ostatok",
+          "title": "Устное деление на 10, 100, 1000 с остатком и проверка",
+          "book_pages": [
+            53,
+            54
+          ],
+          "pdf_pages": [
+            54,
+            55
+          ]
+        },
+        {
+          "id": "pism-delenie-nuli",
+          "title": "Письменное деление на числа, оканчивающиеся нулями",
+          "book_pages": [
+            55,
+            56
+          ],
+          "pdf_pages": [
+            56,
+            57
+          ]
+        },
+        {
+          "id": "umn-chisla-na-summu",
+          "title": "Умножение числа на сумму",
+          "book_pages": [
+            57,
+            57
+          ],
+          "pdf_pages": [
+            58,
+            58
+          ]
+        },
+        {
+          "id": "umn-vida-18-12",
+          "title": "Умножение вида 18·12 … 256·320",
+          "book_pages": [
+            58,
+            59
+          ],
+          "pdf_pages": [
+            59,
+            60
+          ]
+        },
+        {
+          "id": "neizvestnoe-po-dvum-raznostyam",
+          "title": "Нахождение неизвестного по двум разностям",
+          "book_pages": [
+            60,
+            61
+          ],
+          "pdf_pages": [
+            61,
+            62
+          ]
+        },
+        {
+          "id": "pism-del-na-dvuznachnoe",
+          "title": "Письменное деление на двузначное",
+          "book_pages": [
+            62,
+            62
+          ],
+          "pdf_pages": [
+            63,
+            63
+          ]
+        },
+        {
+          "id": "dvizhenie-odno-napravlenie",
+          "title": "Движение в одном направлении",
+          "book_pages": [
+            63,
+            63
+          ],
+          "pdf_pages": [
+            64,
+            64
+          ]
+        }
+      ]
+    }
+  ],
+  "theory_pages": [
+    {
+      "book_page": 11,
+      "pdf_page": 12,
+      "section_id": "mnogoznachnye",
+      "subsection_id": "numeraciya",
+      "title": "Нумерация многозначных чисел (теория)"
+    },
+    {
+      "book_page": 16,
+      "pdf_page": 17,
+      "section_id": "mnogoznachnye",
+      "subsection_id": "edinicy-dliny-vremeni",
+      "title": "Единицы длины и времени (теория)"
+    },
+    {
+      "book_page": 20,
+      "pdf_page": 21,
+      "section_id": "diagrammy",
+      "title": "Диаграммы (теория) + три диаграммы масс животных"
+    },
+    {
+      "book_page": 23,
+      "pdf_page": 24,
+      "section_id": "ploshchad",
+      "title": "Площадь (теория)"
+    },
+    {
+      "book_page": 27,
+      "pdf_page": 28,
+      "section_id": "dvizhenie",
+      "title": "Встречное и противоположное движение (теория)"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "p03-t1",
+      "section_id": "povtorenie",
+      "subsection_id": "povtorenie-arifmetika",
+      "book_page": 3,
+      "pdf_page": 4,
+      "number": "1",
+      "type": "table_compute",
+      "answer_entry": "number",
+      "prompt": "Заполни таблицу по образцу: разрядный состав → цифровая запись → увеличь число на 3 → уменьши число на 4. Образец: 6 сот. 8 дес. 5 ед. → 685, 688, 681.",
+      "items": [
+        {
+          "id": "a",
+          "prompt": "5 сот. 4 дес. 8 ед.",
+          "answer": {
+            "n": 548,
+            "plus3": 551,
+            "minus4": 544
+          }
+        },
+        {
+          "id": "b",
+          "prompt": "9 сот. 2 дес. 9 ед.",
+          "answer": {
+            "n": 929,
+            "plus3": 932,
+            "minus4": 925
+          }
+        },
+        {
+          "id": "c",
+          "prompt": "7 сот. 6 ед.",
+          "answer": {
+            "n": 706,
+            "plus3": 709,
+            "minus4": 702
+          }
+        },
+        {
+          "id": "d",
+          "prompt": "4 ед. III р., 3 ед. II р., 7 ед. I р.",
+          "answer": {
+            "n": 437,
+            "plus3": 440,
+            "minus4": 433
+          }
+        },
+        {
+          "id": "e",
+          "prompt": "3 ед. III р., 6 ед. I р.",
+          "answer": {
+            "n": 306,
+            "plus3": 309,
+            "minus4": 302
+          }
+        }
+      ],
+      "generator": "Трёхзначное по разрядам; +3 и −4 от записи.",
+      "manual": false,
+      "generatable": true
+    },
+    {
+      "id": "p04-t2",
+      "section_id": "povtorenie",
+      "subsection_id": "povtorenie-arifmetika",
+      "book_page": 4,
+      "pdf_page": 5,
+      "number": "2",
+      "type": "place_value",
+      "answer_entry": "expansion",
+      "prompt": "Представь числа в виде суммы разрядных слагаемых. Образец: 637 = 600 + 30 + 7.",
+      "items": [
+        {
+          "id": "a",
+          "prompt": "408",
+          "answer": "400 + 8"
+        },
+        {
+          "id": "b",
+          "prompt": "943",
+          "answer": "900 + 40 + 3"
+        },
+        {
+          "id": "c",
+          "prompt": "872",
+          "answer": "800 + 70 + 2"
+        },
+        {
+          "id": "d",
+          "prompt": "260",
+          "answer": "200 + 60"
+        },
+        {
+          "id": "e",
+          "prompt": "304",
+          "answer": "300 + 4"
+        }
+      ],
+      "generator": "Разложить трёхзначное на сотни, десятки, единицы (нулевые разряды не писать).",
+      "manual": false,
+      "generatable": true
+    },
+    {
+      "id": "p04-t3",
+      "section_id": "povtorenie",
+      "subsection_id": "povtorenie-arifmetika",
+      "book_page": 4,
+      "pdf_page": 5,
+      "number": "3",
+      "type": "place_value",
+      "answer_entry": "number_list",
+      "prompt": "Прочитай задания. Запиши ответы. Затем полученные числа в порядке убывания.",
+      "items": [
+        {
+          "id": "a",
+          "prompt": "Число, в котором 9 сот. 6 дес.",
+          "answer": 960
+        },
+        {
+          "id": "b",
+          "prompt": "Число, в котором 7 ед. III р., 4 ед. I р.",
+          "answer": 704
+        },
+        {
+          "id": "c",
+          "prompt": "Сколько всего десятков в числе 465?",
+          "answer": 46
+        },
+        {
+          "id": "d",
+          "prompt": "Сумма разрядных слагаемых какого числа равна 600 + 40 + 9?",
+          "answer": 649
+        },
+        {
+          "id": "e",
+          "prompt": "Запиши полученные числа в порядке убывания.",
+          "answer": [
+            960,
+            704,
+            649,
+            46
+          ]
+        }
+      ],
+      "generator": "Конструирование трёхзначных и подсчёт десятков.",
+      "manual": false,
+      "generatable": true
+    },
+    {
+      "id": "p04-t4",
+      "section_id": "povtorenie",
+      "subsection_id": "povtorenie-arifmetika",
+      "book_page": 4,
+      "pdf_page": 5,
+      "number": "4",
+      "type": "select_numbers",
+      "answer_entry": "number_list",
+      "prompt": "Из ряда чисел 455, 207, 608, 359, 53, 785, 950, 49 выпиши:",
+      "items": [
+        {
+          "id": "a",
+          "prompt": "все нечётные трёхзначные в порядке возрастания",
+          "answer": [
+            207,
+            359,
+            455,
+            785
+          ]
+        },
+        {
+          "id": "b",
+          "prompt": "числа, в которых цифры сотен больше цифры единиц",
+          "answer": [
+            785,
+            950
+          ],
+          "note": "Порядок как в исходном ряду; допустим и возрастающий."
+        }
+      ],
+      "generator": "Отбор из набора трёхзначных по признаку.",
+      "manual": false,
+      "generatable": true
+    },
+    {
+      "id": "p04-t5",
+      "section_id": "povtorenie",
+      "subsection_id": "povtorenie-arifmetika",
+      "book_page": 4,
+      "pdf_page": 5,
+      "number": "5",
+      "type": "word_problem",
+      "answer_entry": "compound_measure",
+      "prompt": "Реши задачи. Запиши только ответы. (а–б — с. 4, в–г — с. 5.)",
+      "items": [
+        {
+          "id": "a",
+          "book_page": 4,
+          "prompt": "В 6 одинаковых коробках 780 г конфет. Сколько граммов конфет в 3 таких коробках?",
+          "answer": 390,
+          "unit": "г"
+        },
+        {
+          "id": "b",
+          "book_page": 4,
+          "prompt": "Автомобиль за 4 ч проехал 360 км. Какое расстояние он проедет за 9 ч, если будет двигаться с такой же скоростью?",
+          "answer": 810,
+          "unit": "км"
+        },
+        {
+          "id": "c",
+          "book_page": 5,
+          "pdf_page": 6,
+          "prompt": "В первый день Света прочитала 70 страниц книги. Это в 2 раза меньше, чем она прочитала во второй день. Сколько всего страниц прочитала Света за 2 дня?",
+          "answer": 210,
+          "unit": "стр."
+        },
+        {
+          "id": "d",
+          "book_page": 5,
+          "pdf_page": 6,
+          "prompt": "Бабушка засолила 9 банок огурцов по 5 кг в каждой банке. За декабрь съели 15 кг огурцов. Сколько килограммов засоленных огурцов осталось?",
+          "answer": 30,
+          "unit": "кг"
+        }
+      ],
+      "generator": "Текстовые задачи на пропорциональность и +/− с единицами.",
+      "manual": false,
+      "generatable": true
+    },
+    {
+      "id": "p05-t6",
+      "section_id": "povtorenie",
+      "subsection_id": "povtorenie-arifmetika",
+      "book_page": 5,
+      "pdf_page": 6,
+      "number": "6",
+      "type": "table_compute",
+      "answer_entry": "number",
+      "prompt": "Заполни таблицу по образцу: a, b, сумма a и b, разность a и b. Образец: a=500, b=300, сумма=800, разность=200.",
+      "items": [
+        {
+          "id": "c2",
+          "prompt": "a=670, b=120",
+          "answer": {
+            "sum": 790,
+            "diff": 550
+          }
+        },
+        {
+          "id": "c3",
+          "prompt": "a=400, b=360",
+          "answer": {
+            "sum": 760,
+            "diff": 40
+          }
+        },
+        {
+          "id": "c4",
+          "prompt": "a=630, b=120",
+          "answer": {
+            "sum": 750,
+            "diff": 510
+          }
+        },
+        {
+          "id": "c5",
+          "prompt": "a=450, b=150",
+          "answer": {
+            "sum": 600,
+            "diff": 300
+          }
+        },
+        {
+          "id": "c6",
+          "prompt": "a=327, b=20",
+          "answer": {
+            "sum": 347,
+            "diff": 307
+          }
+        },
+        {
+          "id": "c7",
+          "prompt": "a=382, b=300",
+          "answer": {
+            "sum": 682,
+            "diff": 82
+          }
+        }
+      ],
+      "generator": "Таблица суммы и разности двух чисел.",
+      "manual": false,
+      "generatable": true
+    },
+    {
+      "id": "p05-t7",
+      "section_id": "povtorenie",
+      "subsection_id": "povtorenie-arifmetika",
+      "book_page": 5,
+      "pdf_page": 6,
+      "number": "7",
+      "type": "expression",
+      "answer_entry": "number",
+      "prompt": "Найди значения числовых выражений.",
+      "items": [
+        {
+          "id": "a",
+          "prompt": "(760 − 180) + 220",
+          "answer": 800
+        },
+        {
+          "id": "b",
+          "prompt": "950 − (420 + 180)",
+          "answer": 350
+        },
+        {
+          "id": "c",
+          "prompt": "(435 + 300) − 35",
+          "answer": 700
+        },
+        {
+          "id": "d",
+          "prompt": "700 − 700 + 576",
+          "answer": 576
+        }
+      ],
+      "generator": "Выражения со скобками, +/−.",
+      "manual": false,
+      "generatable": true
+    },
+    {
+      "id": "p05-t8",
+      "section_id": "povtorenie",
+      "subsection_id": "povtorenie-arifmetika",
+      "book_page": 5,
+      "pdf_page": 6,
+      "number": "8",
+      "type": "compare",
+      "answer_entry": "sign",
+      "prompt": "Поставь знак >, < или =. Подчеркни выражения, в которых знаки сравнения можно поставить без вычислений.",
+      "items": [
+        {
+          "id": "a",
+          "prompt": "581 + 137 ○ 581 − 125",
+          "answer": ">",
+          "underline": true
+        },
+        {
+          "id": "b",
+          "prompt": "750 − 22 − 28 ○ 750 + 50",
+          "answer": "<",
+          "underline": true
+        },
+        {
+          "id": "c",
+          "prompt": "608 + 42 ○ 43 + 608",
+          "answer": "<",
+          "underline": true
+        },
+        {
+          "id": "d",
+          "prompt": "600 − 450 ○ 600 − 280",
+          "answer": "<",
+          "underline": true
+        },
+        {
+          "id": "e",
+          "prompt": "268 + 47 ○ 47 + 268",
+          "answer": "=",
+          "underline": true
+        },
+        {
+          "id": "f",
+          "prompt": "208 + 0 ○ 609 − 0",
+          "answer": "<",
+          "underline": true
+        }
+      ],
+      "note": "Все шесть пар сравнимы без вычислений — подчеркнуть все.",
+      "generator": "Сравнение сумм/разностей с общим слагаемым или перестановкой.",
+      "manual": false,
+      "generatable": true
+    },
+    {
+      "id": "p06-t9",
+      "section_id": "povtorenie",
+      "subsection_id": "povtorenie-arifmetika",
+      "book_page": 6,
+      "pdf_page": 7,
+      "number": "9",
+      "type": "error_check",
+      "answer_entry": "boolean_and_number",
+      "prompt": "Обведи примеры, решённые без ошибок. В остальных — исправь ошибки.",
+      "items": [
+        {
+          "id": "a",
+          "prompt": "500 − 488 = 122 (дано)",
+          "correct": false,
+          "answer": 12
+        },
+        {
+          "id": "b",
+          "prompt": "962 − 245 = 727 (дано)",
+          "correct": false,
+          "answer": 717
+        },
+        {
+          "id": "c",
+          "prompt": "247 + 367 = 614 (дано)",
+          "correct": true,
+          "answer": 614
+        }
+      ],
+      "generator": "Письменное +/− трёхзначных с типичными ошибками переноса.",
+      "manual": false,
+      "generatable": true
+    },
+    {
+      "id": "p06-t10",
+      "section_id": "povtorenie",
+      "subsection_id": "povtorenie-arifmetika",
+      "book_page": 6,
+      "pdf_page": 7,
+      "number": "10",
+      "type": "equation",
+      "answer_entry": "equation_and_number",
+      "prompt": "Составь уравнения и реши их.",
+      "items": [
+        {
+          "id": "a",
+          "prompt": "Из какого числа нужно вычесть 250, чтобы получить 680?",
+          "equation": "x − 250 = 680",
+          "answer": 930,
+          "acceptable_equations": [
+            "x - 250 = 680",
+            "x = 680 + 250"
+          ]
+        },
+        {
+          "id": "b",
+          "prompt": "Какое число нужно увеличить на 532, чтобы получить 875?",
+          "equation": "x + 532 = 875",
+          "answer": 343,
+          "acceptable_equations": [
+            "x + 532 = 875",
+            "x = 875 - 532"
+          ]
+        }
+      ],
+      "generator": "Уравнения x−a=b и x+a=b.",
+      "manual": false,
+      "generatable": true
+    },
+    {
+      "id": "p07-t1",
+      "section_id": "povtorenie",
+      "subsection_id": "povtorenie-umnozhenie-delenie",
+      "book_page": 7,
+      "pdf_page": 8,
+      "number": "1",
+      "type": "match_expressions",
+      "answer_entry": "pairs",
+      "prompt": "Соедини выражения с одинаковым значением.",
+      "items": [
+        {
+          "id": "pair600",
+          "value": 600,
+          "expressions": [
+            "180·4 − 600:5",
+            "7·(890 − 770) − 240"
+          ]
+        },
+        {
+          "id": "pair190",
+          "value": 190,
+          "expressions": [
+            "380·2:4",
+            "640:40·10 + 30"
+          ]
+        },
+        {
+          "id": "pair200",
+          "value": 200,
+          "expressions": [
+            "560:40 + 186",
+            "800:4·(800 − 799)"
+          ]
+        }
+      ],
+      "answer": {
+        "600": [
+          "180·4 − 600:5",
+          "7·(890 − 770) − 240"
+        ],
+        "190": [
+          "380·2:4",
+          "640:40·10 + 30"
+        ],
+        "200": [
+          "560:40 + 186",
+          "800:4·(800 − 799)"
+        ]
+      },
+      "generator": "Выражения · и : со скобками, подбор пар по значению.",
+      "manual": false,
+      "generatable": true
+    },
+    {
+      "id": "p07-t2",
+      "section_id": "povtorenie",
+      "subsection_id": "povtorenie-umnozhenie-delenie",
+      "book_page": 7,
+      "pdf_page": 8,
+      "number": "2",
+      "type": "choose_greatest",
+      "answer_entry": "choice",
+      "prompt": "Найди выражение с наибольшим значением и запиши это значение.",
+      "items": [
+        {
+          "id": "best",
+          "prompt": "«Сумму 150 и 200 увеличить в 2 раза»",
+          "value": 700,
+          "note": "Остальные разобранные варианты: 8, 40, 520, 10, 30, 130, 680 — меньше 700."
+        }
+      ],
+      "items_values": [
+        {
+          "prompt": "Частное чисел 400 и 50",
+          "value": 8
+        },
+        {
+          "prompt": "Частное чисел 840 и 21",
+          "value": 40
+        },
+        {
+          "prompt": "Произведение чисел 260 и 2",
+          "value": 520
+        },
+        {
+          "prompt": "Сумму чисел 150 и 200 увеличить в 2 раза",
+          "value": 700,
+          "greatest": true
+        },
+        {
+          "prompt": "Разность чисел 200 и 190",
+          "value": 10
+        },
+        {
+          "prompt": "Частное чисел 960 и 32",
+          "value": 30
+        },
+        {
+          "prompt": "Частное чисел 260 и 2",
+          "value": 130
+        },
+        {
+          "prompt": "Произведение частного чисел 510 и 30 и числа 40",
+          "value": 680
+        }
+      ],
+      "answer": {
+        "choice": "Сумму чисел 150 и 200 увеличить в 2 раза",
+        "value": 700
+      },
+      "generator": "Словесная запись арифметических действий, выбор наибольшего.",
+      "manual": false,
+      "generatable": true
+    },
+    {
+      "id": "p08-t3",
+      "section_id": "povtorenie",
+      "subsection_id": "povtorenie-umnozhenie-delenie",
+      "book_page": 8,
+      "pdf_page": 9,
+      "number": "3",
+      "type": "expression",
+      "answer_entry": "number",
+      "prompt": "Вычисли.",
+      "items": [
+        {
+          "id": "a",
+          "prompt": "66·9",
+          "answer": 594
+        },
+        {
+          "id": "b",
+          "prompt": "8·96",
+          "answer": 768
+        },
+        {
+          "id": "c",
+          "prompt": "145·6",
+          "answer": 870
+        },
+        {
+          "id": "d",
+          "prompt": "7·98",
+          "answer": 686
+        },
+        {
+          "id": "e",
+          "prompt": "154·3",
+          "answer": 462
+        },
+        {
+          "id": "f",
+          "prompt": "2·486",
+          "answer": 972
+        },
+        {
+          "id": "g",
+          "prompt": "298·3",
+          "answer": 894
+        },
+        {
+          "id": "h",
+          "prompt": "5·127",
+          "answer": 635
+        }
+      ],
+      "generator": "Письменное умножение дву- и трёхзначного на однозначное.",
+      "manual": false,
+      "generatable": true
+    },
+    {
+      "id": "p08-t4",
+      "section_id": "povtorenie",
+      "subsection_id": "povtorenie-umnozhenie-delenie",
+      "book_page": 8,
+      "pdf_page": 9,
+      "number": "4",
+      "type": "count_digits",
+      "answer_entry": "integer",
+      "prompt": "Не вычисляя, определи количество цифр в частном.",
+      "items": [
+        {
+          "id": "a",
+          "prompt": "715:5",
+          "answer": 3
+        },
+        {
+          "id": "b",
+          "prompt": "237:3",
+          "answer": 2
+        },
+        {
+          "id": "c",
+          "prompt": "819:9",
+          "answer": 2
+        },
+        {
+          "id": "d",
+          "prompt": "606:3",
+          "answer": 3
+        },
+        {
+          "id": "e",
+          "prompt": "534:6",
+          "answer": 2
+        },
+        {
+          "id": "f",
+          "prompt": "784:7",
+          "answer": 3
+        },
+        {
+          "id": "g",
+          "prompt": "959:7",
+          "answer": 3
+        },
+        {
+          "id": "h",
+          "prompt": "234:6",
+          "answer": 2
+        }
+      ],
+      "generator": "Число цифр частного = len(str(dividend // divisor)) при делении нацело.",
+      "manual": false,
+      "generatable": true
+    },
+    {
+      "id": "p08-t5",
+      "section_id": "povtorenie",
+      "subsection_id": "povtorenie-umnozhenie-delenie",
+      "book_page": 8,
+      "pdf_page": 9,
+      "number": "5",
+      "type": "division",
+      "answer_entry": "number",
+      "prompt": "Выполни письменные вычисления.",
+      "items": [
+        {
+          "id": "a",
+          "prompt": "484:4",
+          "answer": 121
+        },
+        {
+          "id": "b",
+          "prompt": "565:5",
+          "answer": 113
+        },
+        {
+          "id": "c",
+          "prompt": "165:3",
+          "answer": 55
+        },
+        {
+          "id": "d",
+          "prompt": "368:4",
+          "answer": 92
+        },
+        {
+          "id": "e",
+          "prompt": "864:9",
+          "answer": 96
+        },
+        {
+          "id": "f",
+          "prompt": "552:8",
+          "answer": 69
+        }
+      ],
+      "generator": "Письменное деление на однозначное без остатка.",
+      "manual": false,
+      "generatable": true
+    },
+    {
+      "id": "p09-t1",
+      "section_id": "povtorenie",
+      "subsection_id": "povtorenie-doli-edinicy",
+      "book_page": 9,
+      "pdf_page": 10,
+      "number": "1",
+      "type": "color_fraction",
+      "answer_entry": "drawing",
+      "prompt": "Закрась 1/5, 1/8 и 1/4 изображённых фигур.",
+      "manual": true,
+      "generatable": true,
+      "manual_note": "Закрашивание долей фигуры. Автопроверка возможна только если UI даёт кликабельные равные доли (закрасить ровно 1 из 5 и т.д.).",
+      "generator": "Фигура из n равных частей, закрасить 1/k."
+    },
+    {
+      "id": "p09-t2",
+      "section_id": "povtorenie",
+      "subsection_id": "povtorenie-doli-edinicy",
+      "book_page": 9,
+      "pdf_page": 10,
+      "number": "2",
+      "type": "table_compute",
+      "answer_entry": "compound_measure",
+      "prompt": "Найди 1/5 и 1/3 числа. Во второй таблице найди 1/4 величины.",
+      "items": [
+        {
+          "id": "a",
+          "prompt": "600: 1/5 и 1/3",
+          "answer": {
+            "one_fifth": 120,
+            "one_third": 200
+          }
+        },
+        {
+          "id": "b",
+          "prompt": "900: 1/5 и 1/3",
+          "answer": {
+            "one_fifth": 180,
+            "one_third": 300
+          }
+        },
+        {
+          "id": "c",
+          "prompt": "750: 1/5 и 1/3",
+          "answer": {
+            "one_fifth": 150,
+            "one_third": 250
+          }
+        },
+        {
+          "id": "d",
+          "prompt": "120: 1/5 и 1/3",
+          "answer": {
+            "one_fifth": 24,
+            "one_third": 40
+          }
+        },
+        {
+          "id": "e",
+          "prompt": "300: 1/5 и 1/3",
+          "answer": {
+            "one_fifth": 60,
+            "one_third": 100
+          }
+        },
+        {
+          "id": "f",
+          "prompt": "1/4 от 800 м",
+          "answer": 200,
+          "unit": "м"
+        },
+        {
+          "id": "g",
+          "prompt": "1/4 от 1 ч",
+          "answer": "15 мин",
+          "acceptable": [
+            "15 мин",
+            "1/4 ч",
+            "0 ч 15 мин"
+          ]
+        },
+        {
+          "id": "h",
+          "prompt": "1/4 от 20 дм",
+          "answer": "5 дм",
+          "acceptable": [
+            "5 дм",
+            "50 см",
+            "0,5 м"
+          ]
+        },
+        {
+          "id": "i",
+          "prompt": "1/4 от 1 ц",
+          "answer": "25 кг",
+          "acceptable": [
+            "25 кг",
+            "1/4 ц"
+          ]
+        },
+        {
+          "id": "j",
+          "prompt": "1/4 от 1 кг",
+          "answer": "250 г",
+          "acceptable": [
+            "250 г",
+            "1/4 кг"
+          ]
+        }
+      ],
+      "generator": "1/n числа и величины с единицами.",
+      "manual": false,
+      "generatable": true
+    },
+    {
+      "id": "p10-t3",
+      "section_id": "povtorenie",
+      "subsection_id": "povtorenie-doli-edinicy",
+      "book_page": 10,
+      "pdf_page": 11,
+      "number": "3",
+      "type": "word_problem",
+      "answer_entry": "number",
+      "prompt": "Реши задачи на нахождение доли числа.",
+      "items": [
+        {
+          "id": "a",
+          "prompt": "От дома до школы 800 м. Инна прошла 1/4 часть пути. Сколько метров осталось Инне пройти?",
+          "answer": 600,
+          "unit": "м"
+        },
+        {
+          "id": "b",
+          "prompt": "Для оформления книги художнику нужно сделать 48 рисунков. За первую неделю он сделал 1/8 часть рисунков, а за вторую — 1/4 часть. Сколько рисунков художник сделал за первые две недели?",
+          "answer": 18,
+          "unit": "рис."
+        }
+      ],
+      "generator": "Текстовая задача: 1/n от величины.",
+      "manual": false,
+      "generatable": true
+    },
+    {
+      "id": "p10-t4",
+      "section_id": "povtorenie",
+      "subsection_id": "povtorenie-doli-edinicy",
+      "book_page": 10,
+      "pdf_page": 11,
+      "number": "4",
+      "type": "unit_conversion",
+      "answer_entry": "compound_measure",
+      "prompt": "«Рассели» величины длины и времени по домикам. Дан смешанный список: 720 м, 2 сут., 300 км, 1 ч, 240 дм, 40 сут., 84 см, 1 мин. У величин длины найди и запиши 1/6 часть, времени — 1/4 часть.",
+      "items": [
+        {
+          "id": "len",
+          "prompt": "Домик «Длина»: 720 м, 300 км, 240 дм, 84 см — взять 1/6.",
+          "answer": [
+            "120 м",
+            "50 км",
+            "40 дм",
+            "14 см"
+          ],
+          "acceptable": {
+            "720м": [
+              "120 м"
+            ],
+            "300км": [
+              "50 км"
+            ],
+            "240дм": [
+              "40 дм"
+            ],
+            "84см": [
+              "14 см"
+            ]
+          }
+        },
+        {
+          "id": "time",
+          "prompt": "Домик «Время»: 2 сут., 1 ч, 40 сут., 1 мин — взять 1/4.",
+          "answer": [
+            "12 ч",
+            "15 мин",
+            "10 сут.",
+            "15 с"
+          ],
+          "acceptable": {
+            "2сут": [
+              "12 ч",
+              "0,5 сут.",
+              "720 мин"
+            ],
+            "1ч": [
+              "15 мин",
+              "1/4 ч"
+            ],
+            "40сут": [
+              "10 сут."
+            ],
+            "1мин": [
+              "15 с",
+              "1/4 мин"
+            ]
+          }
+        }
+      ],
+      "generator": "Сортировка однородных величин и доля 1/n.",
+      "manual": false,
+      "generatable": true
+    },
+    {
+      "id": "p10-t5",
+      "section_id": "povtorenie",
+      "subsection_id": "povtorenie-doli-edinicy",
+      "book_page": 10,
+      "pdf_page": 11,
+      "number": "5",
+      "type": "error_check",
+      "answer_entry": "boolean_and_correction",
+      "prompt": "Найди и исправь ошибки в равенствах и неравенствах величин.",
+      "items": [
+        {
+          "id": "a",
+          "prompt": "150 г · 3 + 550 г = 1 кг 50 г (дано)",
+          "correct": false,
+          "answer": "1 кг",
+          "reason": "450+550=1000 г = 1 кг, не 1 кг 50 г"
+        },
+        {
+          "id": "b",
+          "prompt": "900 т − 250 т · 2 < 180 т · 5",
+          "correct": true,
+          "reason": "400 т < 900 т"
+        },
+        {
+          "id": "c",
+          "prompt": "1 сут. + 6 ч = 1/8 сут. + 22 ч",
+          "correct": false,
+          "reason": "30 ч ≠ 25 ч (1/8 сут. = 3 ч)"
+        },
+        {
+          "id": "d",
+          "prompt": "840 дм : 7 − 3 м > 160 дм · 6",
+          "correct": false,
+          "reason": "120 дм − 30 дм = 90 дм, справа 960 дм; 90 ≯ 960"
+        },
+        {
+          "id": "e",
+          "prompt": "1/4 м > 1/2 м − 30 см",
+          "correct": true,
+          "reason": "25 см > 20 см"
+        },
+        {
+          "id": "f",
+          "prompt": "189 км · 4 < 189 км · 3 + 189 км",
+          "correct": false,
+          "reason": "Равно (распределительное свойство), не «меньше»"
+        }
+      ],
+      "generator": "Проверка тождеств с единицами и долями.",
+      "manual": false,
+      "generatable": true
+    },
+    {
+      "id": "p11-theory",
+      "section_id": "mnogoznachnye",
+      "subsection_id": "numeraciya",
+      "book_page": 11,
+      "pdf_page": 12,
+      "number": "—",
+      "type": "theory",
+      "answer_entry": "none",
+      "prompt": "Теория: классы и разряды многозначных чисел. Нумерованных заданий нет.",
+      "manual": true,
+      "generatable": false,
+      "manual_note": "Только справочный материал."
+    },
+    {
+      "id": "p12-t1",
+      "section_id": "mnogoznachnye",
+      "subsection_id": "numeraciya",
+      "book_page": 12,
+      "pdf_page": 13,
+      "number": "1",
+      "type": "place_value",
+      "answer_entry": "digits",
+      "prompt": "Запиши числа в разрядную таблицу (классы тысяч и единиц). Образец: 5687.",
+      "items": [
+        {
+          "id": "a",
+          "prompt": "36 007",
+          "answer": {
+            "tens_thousands": 3,
+            "thousands": 6,
+            "hundreds": 0,
+            "tens": 0,
+            "ones": 7
+          }
+        },
+        {
+          "id": "b",
+          "prompt": "850 040",
+          "answer": {
+            "hundreds_thousands": 8,
+            "tens_thousands": 5,
+            "thousands": 0,
+            "hundreds": 0,
+            "tens": 4,
+            "ones": 0
+          }
+        },
+        {
+          "id": "c",
+          "prompt": "784 000",
+          "answer": {
+            "hundreds_thousands": 7,
+            "tens_thousands": 8,
+            "thousands": 4,
+            "hundreds": 0,
+            "tens": 0,
+            "ones": 0
+          }
+        }
+      ],
+      "generator": "Разложить 5–6-значное число по разрядам.",
+      "manual": false,
+      "generatable": true
+    },
+    {
+      "id": "p12-t2",
+      "section_id": "mnogoznachnye",
+      "subsection_id": "numeraciya",
+      "book_page": 12,
+      "pdf_page": 13,
+      "number": "2",
+      "type": "mark_classes",
+      "answer_entry": "spaced_number",
+      "prompt": "Разбей числа на классы (овал — класс тысяч, прямоугольник — класс единиц) и запиши с пробелом между классами.",
+      "items": [
+        {
+          "id": "write",
+          "prompt": "Запись чисел с пробелом между классами (среди них 541 809 и др.).",
+          "note": "Конкретный список чисел — на с. 12."
+        }
+      ],
+      "manual": true,
+      "generatable": true,
+      "manual_note": "Разметка овалом/прямоугольником — вручную. Автоматически можно проверять запись вида 541 809 (пробел между классами).",
+      "generator": "Многозначные числа, визуальное разбиение на классы."
+    },
+    {
+      "id": "p12-t3",
+      "section_id": "mnogoznachnye",
+      "subsection_id": "numeraciya",
+      "book_page": 12,
+      "pdf_page": 13,
+      "number": "3",
+      "type": "true_false",
+      "answer_entry": "index_list",
+      "prompt": "Отметь верные утверждения.",
+      "items": [
+        {
+          "id": "1",
+          "prompt": "9999 — наибольшее четырёхзначное число.",
+          "answer": true
+        },
+        {
+          "id": "2",
+          "prompt": "540 873 можно представить как 540 тысяч и 378 единиц.",
+          "answer": false,
+          "reason": "873 единицы, не 378"
+        },
+        {
+          "id": "3",
+          "prompt": "Неверное указание разрядных цифр числа 801 503.",
+          "answer": false
+        },
+        {
+          "id": "4",
+          "prompt": "420 980 = 400 000 + 20 000 + 900 + 80.",
+          "answer": true
+        },
+        {
+          "id": "5",
+          "prompt": "Следующее за 800 000 число — 799 999.",
+          "answer": false,
+          "reason": "Следующее — 800 001; 799 999 предшествует 800 000"
+        }
+      ],
+      "answer": {
+        "true_indices": [
+          1,
+          4
+        ]
+      },
+      "note": "Точные формулировки пунктов 3 и частично 2, 5 — на с. 12; истинность (верны только 1 и 4) проверена.",
+      "generator": "Утверждения о разрядах и порядке многозначных чисел.",
+      "manual": false,
+      "generatable": true
+    },
+    {
+      "id": "p12-t4",
+      "section_id": "mnogoznachnye",
+      "subsection_id": "numeraciya",
+      "book_page": 12,
+      "pdf_page": 13,
+      "number": "4",
+      "type": "select_numbers",
+      "answer_entry": "number_list",
+      "prompt": "Запиши числа по описанию (начало на с. 12, продолжение на с. 13) и расположи их в порядке убывания.",
+      "items": [
+        {
+          "id": "a",
+          "prompt": "580 тысяч 905",
+          "answer": 580905
+        },
+        {
+          "id": "b",
+          "prompt": "26 тысяч 740",
+          "answer": 26740
+        },
+        {
+          "id": "c",
+          "prompt": "804 тысячи 30",
+          "answer": 804030
+        },
+        {
+          "id": "d",
+          "book_page": 13,
+          "pdf_page": 14,
+          "prompt": "90 тысяч 900",
+          "answer": 90900
+        },
+        {
+          "id": "e",
+          "book_page": 13,
+          "pdf_page": 14,
+          "prompt": "54 тысячи 600",
+          "answer": 54600
+        },
+        {
+          "id": "f",
+          "book_page": 13,
+          "pdf_page": 14,
+          "prompt": "784 тысячи",
+          "answer": 784000
+        },
+        {
+          "id": "g",
+          "book_page": 13,
+          "pdf_page": 14,
+          "prompt": "В порядке убывания",
+          "answer": [
+            804030,
+            784000,
+            580905,
+            90900,
+            54600,
+            26740
+          ]
+        }
+      ],
+      "note": "Формулировки «запиши число, в котором…» сверить со с. 12–13; значения проверены.",
+      "generator": "Конструирование многозначных по классам и сортировка.",
+      "manual": false,
+      "generatable": true
+    },
+    {
+      "id": "p13-t5",
+      "section_id": "mnogoznachnye",
+      "subsection_id": "numeraciya",
+      "book_page": 13,
+      "pdf_page": 14,
+      "number": "5",
+      "type": "place_value",
+      "answer_entry": "expansion",
+      "prompt": "Представь в виде суммы разрядных слагаемых.",
+      "items": [
+        {
+          "id": "a",
+          "prompt": "96 302",
+          "answer": "90 000 + 6 000 + 300 + 2"
+        },
+        {
+          "id": "b",
+          "prompt": "7 402",
+          "answer": "7 000 + 400 + 2"
+        }
+      ],
+      "generator": "Разрядные слагаемые 4–5-значных чисел.",
+      "manual": false,
+      "generatable": true
+    },
+    {
+      "id": "p13-t6",
+      "section_id": "mnogoznachnye",
+      "subsection_id": "numeraciya",
+      "book_page": 13,
+      "pdf_page": 14,
+      "number": "6",
+      "type": "compare",
+      "answer_entry": "sign",
+      "prompt": "Сравни числа (в том числе с незаполненными цифрами: знак определяется однозначно при любых допустимых цифрах 0–9).",
+      "items": [
+        {
+          "id": "fixed",
+          "prompt": "Готовые пары без пропусков (знаки: >, <, <, <, < и >).",
+          "note": "Точные пары — на с. 13."
+        },
+        {
+          "id": "b1",
+          "prompt": "87 630 ○ 88□□□",
+          "answer": "<",
+          "reason": "87 тысяч < 88 тысяч при любых цифрах в клетках"
+        },
+        {
+          "id": "b2",
+          "prompt": "100 000 ○ 999□□",
+          "answer": ">",
+          "reason": "100 000 > любого пятизначного, начинающегося с 999"
+        },
+        {
+          "id": "b3",
+          "prompt": "5□745 ○ 69 333",
+          "answer": "<",
+          "reason": "Максимум 59 745 < 69 333"
+        },
+        {
+          "id": "b4",
+          "prompt": "320 645 ○ 319□□□",
+          "answer": ">",
+          "reason": "320 тысяч > 319 тысяч при любых цифрах"
+        }
+      ],
+      "note": "Знаки в парах с «клетками» однозначны; сами цифры в клетках не проверяются.",
+      "generator": "Сравнение многозначных, в т.ч. с неопределёнными цифрами.",
+      "manual": false,
+      "generatable": true
+    },
+    {
+      "id": "p14-t7",
+      "section_id": "mnogoznachnye",
+      "subsection_id": "numeraciya",
+      "book_page": 14,
+      "pdf_page": 15,
+      "number": "7",
+      "type": "table_compute",
+      "answer_entry": "number",
+      "prompt": "Заполни таблицу «скорость — время — расстояние» и укажи, кто самый медленный.",
+      "items": [
+        {
+          "id": "lion",
+          "prompt": "Лев: 80 км/ч, 7 ч, расстояние?",
+          "answer": 560,
+          "unit": "км"
+        },
+        {
+          "id": "horse",
+          "prompt": "Лошадь: 77 км/ч, 4 ч, расстояние?",
+          "answer": 308,
+          "unit": "км"
+        },
+        {
+          "id": "hare",
+          "prompt": "Заяц: 55 км/ч, 9 ч, расстояние?",
+          "answer": 495,
+          "unit": "км"
+        },
+        {
+          "id": "ant",
+          "prompt": "Муравей: 3 м/мин, 24 мин, расстояние?",
+          "answer": 72,
+          "unit": "м"
+        },
+        {
+          "id": "snail",
+          "prompt": "Улитка: 78 см/мин, 7 мин, расстояние?",
+          "answer": 546,
+          "unit": "см"
+        },
+        {
+          "id": "slowest",
+          "prompt": "Кто движется медленнее всех?",
+          "answer": "улитка"
+        }
+      ],
+      "generator": "s = v·t в разных единицах; сравнение скоростей после перевода.",
+      "manual": false,
+      "generatable": true
+    },
+    {
+      "id": "p14-t8",
+      "section_id": "mnogoznachnye",
+      "subsection_id": "numeraciya",
+      "book_page": 14,
+      "pdf_page": 15,
+      "number": "8",
+      "type": "expression",
+      "answer_entry": "number",
+      "prompt": "Увеличь или уменьши число в несколько раз / на несколько единиц.",
+      "items": [
+        {
+          "id": "a",
+          "answer": 10900
+        },
+        {
+          "id": "b",
+          "answer": 12000
+        },
+        {
+          "id": "c",
+          "answer": 800000
+        },
+        {
+          "id": "d",
+          "answer": 1600
+        }
+      ],
+      "note": "Точные формулировки («увеличь 1090 в 10 раз» и т.п.) — на с. 14; ответы 10 900, 12 000, 800 000, 1 600 проверены при разборе.",
+      "generator": "n·k, n:k, n±k для многозначных.",
+      "manual": false,
+      "generatable": true
+    },
+    {
+      "id": "p14-t9",
+      "section_id": "mnogoznachnye",
+      "subsection_id": "numeraciya",
+      "book_page": 14,
+      "pdf_page": 15,
+      "number": "9",
+      "type": "match_expressions",
+      "answer_entry": "pairs",
+      "prompt": "Соедини выражения с одинаковыми значениями.",
+      "items": [
+        {
+          "id": "pair4400",
+          "value": 4400,
+          "expressions": [
+            "1100 · 4",
+            "8800 : 2"
+          ]
+        },
+        {
+          "id": "pair60000",
+          "value": 60000,
+          "expressions": [
+            "720000 : 12",
+            "840000 : 14"
+          ]
+        },
+        {
+          "id": "unmatched",
+          "prompt": "Без пары",
+          "expressions": [
+            "14000 · 5 = 70000",
+            "720000 : 6 = 120000"
+          ]
+        }
+      ],
+      "book_error": true,
+      "note": "В пособии шесть выражений: 1100·4, 14000·5, 720000:12, 840000:14, 720000:6, 8800:2. Две пары сходятся (4400 и 60 000); 14 000·5 и 720 000:6 не равны — вероятная опечатка.",
+      "generator": "Подбор пар равных произведений/частных.",
+      "manual": false,
+      "generatable": true
+    },
+    {
+      "id": "p15-t10",
+      "section_id": "mnogoznachnye",
+      "subsection_id": "numeraciya",
+      "book_page": 15,
+      "pdf_page": 16,
+      "number": "10",
+      "type": "word_problem",
+      "answer_entry": "number",
+      "prompt": "Найди число по описанию («на … больше/меньше», «в … раз»).",
+      "items": [
+        {
+          "id": "a",
+          "answer": 300000
+        },
+        {
+          "id": "b",
+          "answer": 32000
+        },
+        {
+          "id": "c",
+          "answer": 753000
+        },
+        {
+          "id": "d",
+          "answer": 300000
+        }
+      ],
+      "note": "Условия с. 15 сверить со сканом; четыре ответа (300 000, 32 000, 753 000, 300 000) проверены при разборе.",
+      "generator": "Найти число, большее/меньшее данного на k или в k раз.",
+      "manual": false,
+      "generatable": true
+    },
+    {
+      "id": "p15-t11",
+      "section_id": "mnogoznachnye",
+      "subsection_id": "numeraciya",
+      "book_page": 15,
+      "pdf_page": 16,
+      "number": "11",
+      "type": "equation",
+      "answer_entry": "number",
+      "prompt": "Реши уравнения.",
+      "items": [
+        {
+          "id": "a",
+          "answer": 96000
+        },
+        {
+          "id": "b",
+          "answer": 4
+        },
+        {
+          "id": "c",
+          "answer": 700000
+        }
+      ],
+      "note": "Точные уравнения — на с. 15; корни 96 000, 4, 700 000 проверены.",
+      "generator": "Уравнения с многозначными: x±a=b, a·x=b, x:a=b.",
+      "manual": false,
+      "generatable": true
+    },
+    {
+      "id": "p16-theory",
+      "section_id": "mnogoznachnye",
+      "subsection_id": "edinicy-dliny-vremeni",
+      "book_page": 16,
+      "pdf_page": 17,
+      "number": "—",
+      "type": "theory",
+      "answer_entry": "none",
+      "prompt": "Теория: миллиметр; неделя, месяц, год, век. Нумерованных заданий нет.",
+      "manual": true,
+      "generatable": false,
+      "manual_note": "Только справочный материал."
+    },
+    {
+      "id": "p17-t1",
+      "section_id": "mnogoznachnye",
+      "subsection_id": "edinicy-dliny-vremeni",
+      "book_page": 17,
+      "pdf_page": 18,
+      "number": "1",
+      "type": "unit_conversion",
+      "answer_entry": "number",
+      "prompt": "Вырази величины в указанных единицах.",
+      "items": [
+        {
+          "id": "cm1",
+          "prompt": "15 м в см",
+          "answer": 1500,
+          "unit": "см"
+        },
+        {
+          "id": "cm2",
+          "prompt": "190 мм в см",
+          "answer": 19,
+          "unit": "см"
+        },
+        {
+          "id": "cm3",
+          "prompt": "6 дм 70 мм в см",
+          "answer": 67,
+          "unit": "см"
+        },
+        {
+          "id": "cm4",
+          "prompt": "40 м в см",
+          "answer": 4000,
+          "unit": "см"
+        },
+        {
+          "id": "cm5",
+          "prompt": "18 км 42 м в см",
+          "answer": 1804200,
+          "unit": "см"
+        },
+        {
+          "id": "mm1",
+          "prompt": "62 дм 14 мм в мм",
+          "answer": 6214,
+          "unit": "мм"
+        },
+        {
+          "id": "mm2",
+          "prompt": "9 м 8 дм в мм",
+          "answer": 9800,
+          "unit": "мм"
+        },
+        {
+          "id": "mm3",
+          "prompt": "79 дм 8 см в мм",
+          "answer": 7980,
+          "unit": "мм"
+        },
+        {
+          "id": "mm4",
+          "prompt": "67 м 28 дм в мм",
+          "answer": 69800,
+          "unit": "мм"
+        },
+        {
+          "id": "mm5",
+          "prompt": "861 м 94 см 3 мм в мм",
+          "answer": 861943,
+          "unit": "мм"
+        },
+        {
+          "id": "dm1",
+          "prompt": "6900 см в дм",
+          "answer": 69,
+          "unit": "дм"
+        },
+        {
+          "id": "dm2",
+          "prompt": "780 000 мм в дм",
+          "answer": 7800,
+          "unit": "дм"
+        },
+        {
+          "id": "dm3",
+          "prompt": "875 м в дм",
+          "answer": 8750,
+          "unit": "дм"
+        },
+        {
+          "id": "dm4",
+          "prompt": "48 м 960 см в дм",
+          "answer": 576,
+          "unit": "дм"
+        },
+        {
+          "id": "dm5",
+          "prompt": "967 000 мм в дм",
+          "answer": 9670,
+          "unit": "дм"
+        },
+        {
+          "id": "m1",
+          "prompt": "63 км в м",
+          "answer": 63000,
+          "unit": "м"
+        },
+        {
+          "id": "m2",
+          "prompt": "970 000 см в м",
+          "answer": 9700,
+          "unit": "м"
+        },
+        {
+          "id": "m3",
+          "prompt": "560 000 мм в м",
+          "answer": 560,
+          "unit": "м"
+        },
+        {
+          "id": "m4",
+          "prompt": "674 200 дм в м",
+          "answer": 67420,
+          "unit": "м"
+        },
+        {
+          "id": "m5",
+          "prompt": "380 км 400 дм в м",
+          "answer": 380040,
+          "unit": "м"
+        }
+      ],
+      "generator": "Перевод единиц длины, в том числе составных.",
+      "manual": false,
+      "generatable": true
+    },
+    {
+      "id": "p17-t2",
+      "section_id": "mnogoznachnye",
+      "subsection_id": "edinicy-dliny-vremeni",
+      "book_page": 17,
+      "pdf_page": 18,
+      "number": "2",
+      "type": "compare",
+      "answer_entry": "sign",
+      "prompt": "Сравни.",
+      "items": [
+        {
+          "id": "a",
+          "prompt": "1/4 дм ○ 15 мм",
+          "answer": ">",
+          "reason": "25 мм > 15 мм"
+        },
+        {
+          "id": "b",
+          "prompt": "1/5 см + 1000 мм ○ 2 м",
+          "answer": "<",
+          "reason": "1000,2 мм < 2000 мм"
+        },
+        {
+          "id": "c",
+          "prompt": "9 км 78 м ○ 978 000 дм",
+          "answer": "<",
+          "reason": "9078 м < 97800 м"
+        },
+        {
+          "id": "d",
+          "prompt": "603 м 4 дм ○ 6034 см",
+          "answer": ">",
+          "reason": "6034 дм = 60340 см > 6034 см"
+        }
+      ],
+      "generator": "Сравнение длин после перевода в одну единицу.",
+      "manual": false,
+      "generatable": true
+    },
+    {
+      "id": "p17-t3",
+      "section_id": "mnogoznachnye",
+      "subsection_id": "edinicy-dliny-vremeni",
+      "book_page": 17,
+      "pdf_page": 18,
+      "number": "3",
+      "type": "table_compute",
+      "answer_entry": "compound_measure",
+      "prompt": "Заполни таблицу: уменьшаемое, вычитаемое, разность (единицы можно нормализовать).",
+      "items": [
+        {
+          "id": "c1",
+          "prompt": "уменьшаемое 630 дм, вычитаемое 61 м, разность?",
+          "answer": "20 дм",
+          "acceptable": [
+            "20 дм",
+            "2 м",
+            "200 см"
+          ]
+        },
+        {
+          "id": "c2",
+          "prompt": "вычитаемое 14 км 80 м, разность 15 км, уменьшаемое?",
+          "answer": "29 км 80 м",
+          "acceptable": [
+            "29 км 80 м",
+            "29080 м"
+          ]
+        },
+        {
+          "id": "c3",
+          "prompt": "уменьшаемое 8400 мм, разность 5 дм, вычитаемое?",
+          "answer": "7900 мм",
+          "acceptable": [
+            "7900 мм",
+            "79 дм",
+            "7 м 9 дм",
+            "7 м 90 см"
+          ]
+        },
+        {
+          "id": "c4",
+          "prompt": "уменьшаемое 7 дм 8 см 2 мм, вычитаемое 54 см, разность?",
+          "answer": "24 см 2 мм",
+          "acceptable": [
+            "24 см 2 мм",
+            "2 дм 4 см 2 мм",
+            "242 мм"
+          ]
+        },
+        {
+          "id": "c5",
+          "prompt": "уменьшаемое 6 дм, разность 9 мм, вычитаемое?",
+          "answer": "591 мм",
+          "acceptable": [
+            "591 мм",
+            "5 дм 9 см 1 мм",
+            "59 см 1 мм"
+          ]
+        }
+      ],
+      "generator": "Вычитание составных длин, перевод единиц.",
+      "manual": false,
+      "generatable": true
+    },
+    {
+      "id": "p18-t4",
+      "section_id": "mnogoznachnye",
+      "subsection_id": "edinicy-dliny-vremeni",
+      "book_page": 18,
+      "pdf_page": 19,
+      "number": "4",
+      "type": "unit_conversion",
+      "answer_entry": "compound_measure",
+      "prompt": "Вырази и вычисли величины времени.",
+      "items": [
+        {
+          "id": "a",
+          "prompt": "4 сут. 2 ч = ? ч",
+          "answer": "98 ч"
+        },
+        {
+          "id": "b",
+          "prompt": "320 мин = ? ч ? мин",
+          "answer": "5 ч 20 мин"
+        },
+        {
+          "id": "c",
+          "prompt": "1/10 ч = ? с",
+          "answer": "360 с"
+        },
+        {
+          "id": "d",
+          "prompt": "2 г. 10 мес. = ? мес.",
+          "answer": "34 мес."
+        },
+        {
+          "id": "e",
+          "prompt": "1/4 г. = ? мес.",
+          "answer": "3 мес."
+        },
+        {
+          "id": "f",
+          "prompt": "3 в. 74 г. = ? г.",
+          "answer": "374 г."
+        },
+        {
+          "id": "g",
+          "prompt": "6 нед. 3 сут. − 4 нед. 5 сут.",
+          "answer": "1 нед. 5 сут.",
+          "acceptable": [
+            "1 нед. 5 сут.",
+            "12 сут."
+          ]
+        },
+        {
+          "id": "h",
+          "prompt": "1 г. 3 мес. · 5",
+          "answer": "6 лет 3 мес.",
+          "acceptable": [
+            "6 лет 3 мес.",
+            "6 г. 3 мес.",
+            "75 мес."
+          ]
+        }
+      ],
+      "generator": "Перевод и действия с единицами времени.",
+      "manual": false,
+      "generatable": true
+    },
+    {
+      "id": "p18-t5",
+      "section_id": "mnogoznachnye",
+      "subsection_id": "edinicy-dliny-vremeni",
+      "book_page": 18,
+      "pdf_page": 19,
+      "number": "5",
+      "type": "century",
+      "answer_entry": "roman_or_integer",
+      "prompt": "Укажи век для каждого года (год 100k принадлежит k-му веку).",
+      "items": [
+        {
+          "id": "a",
+          "prompt": "1019",
+          "answer": "XI",
+          "acceptable": [
+            "XI",
+            "11",
+            "11 век"
+          ]
+        },
+        {
+          "id": "b",
+          "prompt": "1161",
+          "answer": "XII",
+          "acceptable": [
+            "XII",
+            "12",
+            "12 век"
+          ]
+        },
+        {
+          "id": "c",
+          "prompt": "1994",
+          "answer": "XX",
+          "acceptable": [
+            "XX",
+            "20",
+            "20 век"
+          ]
+        },
+        {
+          "id": "d",
+          "prompt": "862",
+          "answer": "IX",
+          "acceptable": [
+            "IX",
+            "9",
+            "9 век"
+          ]
+        },
+        {
+          "id": "e",
+          "prompt": "1267",
+          "answer": "XIII",
+          "acceptable": [
+            "XIII",
+            "13",
+            "13 век"
+          ]
+        }
+      ],
+      "generator": "Век = (год - 1)//100 + 1.",
+      "manual": false,
+      "generatable": true
+    },
+    {
+      "id": "p19-t6",
+      "section_id": "mnogoznachnye",
+      "subsection_id": "edinicy-dliny-vremeni",
+      "book_page": 19,
+      "pdf_page": 20,
+      "number": "6",
+      "type": "time_clock",
+      "answer_entry": "time",
+      "prompt": "Нарисуй, который час будет, если к тому, который показывают часы, прибавить указанное время. Запиши «было» и «стало».",
+      "items": [
+        {
+          "id": "c1",
+          "prompt": "Было (утро) + 7 ч 25 мин",
+          "answer_was": "6 ч 15 мин утра",
+          "answer_now": "1 ч 40 мин дня",
+          "acceptable_now": [
+            "1 ч 40 мин дня",
+            "13:40",
+            "13 ч 40 мин"
+          ]
+        },
+        {
+          "id": "c2",
+          "prompt": "Было (вечер) + 8 ч 35 мин",
+          "answer_was": "10 ч 50 мин вечера",
+          "answer_now": "7 ч 25 мин утра",
+          "acceptable_now": [
+            "7 ч 25 мин утра",
+            "7:25"
+          ]
+        },
+        {
+          "id": "c3",
+          "prompt": "Было (день) + 4 ч 25 мин",
+          "answer_was": "4 ч 35 мин дня",
+          "answer_now": "9 ч 00 мин",
+          "acceptable_now": [
+            "9 ч 00 мин",
+            "9:00",
+            "9 ч"
+          ]
+        }
+      ],
+      "manual": true,
+      "generatable": true,
+      "manual_note": "Запись времени проверяется автоматически. Рисование стрелок на циферблате «Стало» — вручную. Часы 2 и 3 на скане с бледными стрелками; прочтение 10:50 и 4:35 подтверждено кропом 250 dpi.",
+      "generator": "Прибавление промежутка к времени на часах."
+    },
+    {
+      "id": "p19-t7",
+      "section_id": "mnogoznachnye",
+      "subsection_id": "edinicy-dliny-vremeni",
+      "book_page": 19,
+      "pdf_page": 20,
+      "number": "7",
+      "type": "word_problem",
+      "answer_entry": "compound_measure",
+      "prompt": "Реши задачи на продолжительность и возраст.",
+      "items": [
+        {
+          "id": "a",
+          "prompt": "Экскурсия с 14:25 до 15:10. Сколько она длилась?",
+          "answer": "45 мин"
+        },
+        {
+          "id": "b",
+          "prompt": "К 25 мин прибавить 45 мин (или связанный пункт о суммарном времени).",
+          "answer": "1 ч 10 мин",
+          "acceptable": [
+            "1 ч 10 мин",
+            "70 мин"
+          ],
+          "note": "Точную связку сюжета сверить со с. 19; сумма 25+45 проверена."
+        },
+        {
+          "id": "c",
+          "prompt": "11 лет 3 мес. + 6 лет 11 мес.",
+          "answer": "18 лет 2 мес."
+        }
+      ],
+      "generator": "Разность и сумма времени, сложение лет и месяцев.",
+      "manual": false,
+      "generatable": true
+    },
+    {
+      "id": "p20-theory",
+      "section_id": "diagrammy",
+      "book_page": 20,
+      "pdf_page": 21,
+      "number": "—",
+      "type": "theory",
+      "answer_entry": "none",
+      "prompt": "Теория диаграмм. Три столбчатые диаграммы масс: зубр 1000 кг, лось 800 кг, бурый медведь 350 кг, пятнистый олень 130 кг, рысь 20 кг.",
+      "manual": true,
+      "generatable": false,
+      "manual_note": "Теория; данные диаграмм используются в заданиях с. 21."
+    },
+    {
+      "id": "p21-t1",
+      "section_id": "diagrammy",
+      "book_page": 21,
+      "pdf_page": 22,
+      "number": "1",
+      "type": "diagram_read",
+      "answer_entry": "text_or_measure",
+      "prompt": "Пользуясь диаграммой, ответь на вопросы. Данные: зубр 1000 кг, лось 800, бурый медведь 350, пятнистый олень 130, рысь 20.",
+      "items": [
+        {
+          "id": "a",
+          "prompt": "Какое животное самое тяжёлое?",
+          "answer": "зубр"
+        },
+        {
+          "id": "b",
+          "prompt": "Какое животное самое лёгкое?",
+          "answer": "рысь"
+        },
+        {
+          "id": "c",
+          "prompt": "На сколько килограммов бурый медведь тяжелее рыси?",
+          "answer": 330,
+          "unit": "кг"
+        },
+        {
+          "id": "d",
+          "prompt": "На сколько центнеров лось легче зубра?",
+          "answer": "2 ц",
+          "acceptable": [
+            "2 ц",
+            "200 кг"
+          ]
+        },
+        {
+          "id": "e",
+          "prompt": "Запиши вес зубра в более крупных единицах.",
+          "answer": "1 т",
+          "acceptable": [
+            "1 т",
+            "10 ц"
+          ]
+        },
+        {
+          "id": "f",
+          "prompt": "Запиши вес рыси в более мелких единицах.",
+          "answer": "20 000 г",
+          "acceptable": [
+            "20000 г",
+            "20 000 г"
+          ]
+        }
+      ],
+      "generator": "Чтение столбчатой диаграммы и перевод единиц массы.",
+      "manual": false,
+      "generatable": true
+    },
+    {
+      "id": "p21-t2",
+      "section_id": "diagrammy",
+      "book_page": 21,
+      "pdf_page": 22,
+      "number": "2",
+      "type": "diagram_read",
+      "answer_entry": "text_or_number",
+      "prompt": "По диаграмме продолжительности жизни птиц: ласточка 16 лет, жаворонок 80, аист 8, ворона 118, страус 60. Подписи под рисунками (порядок рисунков: ласточка, страус, аист, жаворонок, ворона) — те же числа.",
+      "items": [
+        {
+          "id": "pic",
+          "prompt": "Подписи под рисунками (ласточка, страус, аист, жаворонок, ворона)",
+          "answer": [
+            16,
+            60,
+            8,
+            80,
+            118
+          ],
+          "unit": "лет"
+        },
+        {
+          "id": "q1",
+          "prompt": "Кто живёт дольше всех?",
+          "answer": "ворона"
+        },
+        {
+          "id": "q2",
+          "prompt": "Кто живёт меньше всех?",
+          "answer": "аист"
+        },
+        {
+          "id": "q3",
+          "prompt": "«На сколько лет больше может прожить аист, чем ласточка?»",
+          "answer": "аист на 8 лет меньше (ласточка на 8 лет больше)",
+          "computed": {
+            "stork": 8,
+            "swallow": 16,
+            "difference_swallow_minus_stork": 8
+          },
+          "book_error": true,
+          "note": "У аиста 8 лет, у ласточки 16; вопрос сформулирован наоборот."
+        },
+        {
+          "id": "q4",
+          "prompt": "«На сколько лет короче жизнь жаворонка, чем страуса?»",
+          "answer": "жаворонок на 20 лет длиннее (страус на 20 лет короче)",
+          "computed": {
+            "lark": 80,
+            "ostrich": 60,
+            "difference": 20
+          },
+          "book_error": true,
+          "note": "У жаворонка 80, у страуса 60; вопрос сформулирован наоборот."
+        }
+      ],
+      "book_error": true,
+      "generator": "Чтение столбчатой диаграммы, разность категорий.",
+      "manual": false,
+      "generatable": true
+    },
+    {
+      "id": "p22-t3",
+      "section_id": "diagrammy",
+      "book_page": 22,
+      "pdf_page": 23,
+      "number": "3",
+      "type": "true_false",
+      "answer_entry": "number_and_choice",
+      "prompt": "По данным о массах: носорог 3200 кг, белый медведь 960 кг, олень 320 кг, тюлень 96 кг, бегемот 3200 кг, морж 960 кг. Заполни массы и отметь верные утверждения.",
+      "items": [
+        {
+          "id": "masses",
+          "prompt": "Массы (кг)",
+          "answer": {
+            "носорог": 3200,
+            "белый медведь": 960,
+            "олень": 320,
+            "тюлень": 96,
+            "бегемот": 3200,
+            "морж": 960
+          }
+        },
+        {
+          "id": "true1",
+          "prompt": "Бегемот весит столько же, сколько носорог.",
+          "answer": true
+        },
+        {
+          "id": "true2",
+          "prompt": "3 моржа = 2 т 8 ц 80 кг.",
+          "answer": true,
+          "reason": "3·960=2880 кг = 2 т 8 ц 80 кг"
+        },
+        {
+          "id": "true3",
+          "prompt": "Медведь = 10 тюленей.",
+          "answer": true,
+          "reason": "960=10·96"
+        },
+        {
+          "id": "true4",
+          "prompt": "3 оленя = 1 медведь.",
+          "answer": true,
+          "reason": "3·320=960"
+        },
+        {
+          "id": "false1",
+          "prompt": "Медведь на 64 ц больше оленя.",
+          "answer": false,
+          "reason": "960−320=640 кг = 6 ц 40 кг, не 64 ц"
+        },
+        {
+          "id": "false2",
+          "prompt": "Бегемот больше оленя в 5 раз.",
+          "answer": false,
+          "reason": "3200:320=10, не 5"
+        },
+        {
+          "id": "false3",
+          "prompt": "4 носорога = 12 т 80 кг.",
+          "answer": false,
+          "reason": "4·3200=12800 кг = 12 т 800 кг (12 т 8 ц), не 12 т 80 кг"
+        }
+      ],
+      "generator": "Кратность масс и перевод единиц; верно/неверно.",
+      "manual": false,
+      "generatable": true
+    },
+    {
+      "id": "p23-theory",
+      "section_id": "ploshchad",
+      "book_page": 23,
+      "pdf_page": 24,
+      "number": "—",
+      "type": "theory",
+      "answer_entry": "none",
+      "prompt": "Теория: мм², см², дм², м², ар, гектар; S=a·b, S=a·a.",
+      "manual": true,
+      "generatable": false,
+      "manual_note": "Только справочный материал."
+    },
+    {
+      "id": "p24-t1",
+      "section_id": "ploshchad",
+      "book_page": 24,
+      "pdf_page": 25,
+      "number": "1",
+      "type": "multi_select",
+      "answer_entry": "index_list",
+      "prompt": "Среди величин найди единицы площади и обведи их в овал: 135 м², 45 дм, 63 г., 870 см², 9310 м, 71 а, 360 мин, 210 км, 691 дм², 7 га, 300 в.",
+      "answer": [
+        "135 м²",
+        "870 см²",
+        "71 а",
+        "691 дм²",
+        "7 га"
+      ],
+      "generator": "Отбор единиц площади из смешанного списка.",
+      "manual": false,
+      "generatable": true
+    },
+    {
+      "id": "p24-t2",
+      "section_id": "ploshchad",
+      "book_page": 24,
+      "pdf_page": 25,
+      "number": "2",
+      "type": "table_compute",
+      "answer_entry": "compound_measure",
+      "prompt": "Заполни таблицу: длина, ширина, периметр, площадь прямоугольника.",
+      "items": [
+        {
+          "id": "c1",
+          "prompt": "5 см × 2 см",
+          "answer": {
+            "P": "14 см",
+            "S": "10 см²"
+          }
+        },
+        {
+          "id": "c2",
+          "prompt": "8 дм × 40 см",
+          "answer": {
+            "P": "24 дм",
+            "S": "32 дм²"
+          },
+          "acceptable": {
+            "P": [
+              "24 дм",
+              "240 см"
+            ],
+            "S": [
+              "32 дм²",
+              "3200 см²"
+            ]
+          },
+          "reason": "40 см = 4 дм"
+        },
+        {
+          "id": "c3",
+          "prompt": "62 мм × 3 мм",
+          "answer": {
+            "P": "130 мм",
+            "S": "186 мм²"
+          }
+        },
+        {
+          "id": "c4",
+          "prompt": "5 см 8 мм × 4 см",
+          "answer": {
+            "P": "19 см 6 мм",
+            "S": "23 см² 20 мм²"
+          },
+          "acceptable": {
+            "P": [
+              "19 см 6 мм",
+              "196 мм",
+              "19,6 см"
+            ],
+            "S": [
+              "23 см² 20 мм²",
+              "2320 мм²",
+              "23,2 см²"
+            ]
+          }
+        },
+        {
+          "id": "c5",
+          "prompt": "12 м × 50 дм",
+          "answer": {
+            "P": "34 м",
+            "S": "60 м²"
+          },
+          "reason": "50 дм = 5 м"
+        },
+        {
+          "id": "c6",
+          "prompt": "длина 9 см, площадь 27 см², найти ширину и периметр",
+          "answer": {
+            "width": "3 см",
+            "P": "24 см",
+            "S": "27 см²"
+          }
+        }
+      ],
+      "generator": "P=2(a+b), S=a·b с переводом единиц; восстановление стороны по площади.",
+      "manual": false,
+      "generatable": true
+    },
+    {
+      "id": "p24-t3",
+      "section_id": "ploshchad",
+      "book_page": 24,
+      "pdf_page": 25,
+      "number": "3",
+      "type": "unit_conversion",
+      "answer_entry": "number",
+      "prompt": "Вырази величины в указанных единицах (см² и дм²).",
+      "items": [
+        {
+          "id": "cm1",
+          "prompt": "5 дм² в см²",
+          "answer": 500,
+          "unit": "см²"
+        },
+        {
+          "id": "cm2",
+          "prompt": "27 м² в см²",
+          "answer": 270000,
+          "unit": "см²"
+        },
+        {
+          "id": "cm3",
+          "prompt": "280 дм² 4 см² в см²",
+          "answer": 28004,
+          "unit": "см²"
+        },
+        {
+          "id": "cm4",
+          "prompt": "1/2 м² в см²",
+          "answer": 5000,
+          "unit": "см²"
+        },
+        {
+          "id": "cm5",
+          "prompt": "1/5 дм² в см²",
+          "answer": 20,
+          "unit": "см²"
+        },
+        {
+          "id": "cm6",
+          "prompt": "600 дм² в см²",
+          "answer": 60000,
+          "unit": "см²"
+        },
+        {
+          "id": "cm7",
+          "prompt": "1/10 м² + 1/4 дм² в см²",
+          "answer": 1025,
+          "unit": "см²"
+        },
+        {
+          "id": "dm1",
+          "prompt": "98 м² в дм²",
+          "answer": 9800,
+          "unit": "дм²"
+        },
+        {
+          "id": "dm2",
+          "prompt": "4600 см² в дм²",
+          "answer": 46,
+          "unit": "дм²"
+        },
+        {
+          "id": "dm3",
+          "prompt": "18 дм² 8700 см² в дм²",
+          "answer": 105,
+          "unit": "дм²"
+        },
+        {
+          "id": "dm4",
+          "prompt": "8 м² 5700 см² в дм²",
+          "answer": 857,
+          "unit": "дм²"
+        },
+        {
+          "id": "dm5",
+          "prompt": "1/4 м² в дм²",
+          "answer": 25,
+          "unit": "дм²"
+        },
+        {
+          "id": "dm6",
+          "prompt": "6 м² 3 дм² 3400 см² в дм²",
+          "answer": 637,
+          "unit": "дм²"
+        },
+        {
+          "id": "dm7",
+          "prompt": "1 000 000 см² в дм²",
+          "answer": 10000,
+          "unit": "дм²"
+        }
+      ],
+      "generator": "Перевод единиц площади (1 дм²=100 см², 1 м²=100 дм²=10 000 см²).",
+      "manual": false,
+      "generatable": true
+    },
+    {
+      "id": "p25-t1",
+      "section_id": "slozhenie-vychitanie",
+      "subsection_id": "pismennoe-slozhenie-vychitanie",
+      "book_page": 25,
+      "pdf_page": 26,
+      "number": "1",
+      "type": "expression",
+      "answer_entry": "number",
+      "prompt": "Выполни письменное сложение и вычитание.",
+      "items": [
+        {
+          "id": "a",
+          "prompt": "345408 + 230131",
+          "answer": 575539
+        },
+        {
+          "id": "b",
+          "prompt": "85671 + 1308",
+          "answer": 86979
+        },
+        {
+          "id": "c",
+          "prompt": "957764 − 743451",
+          "answer": 214313
+        },
+        {
+          "id": "d",
+          "prompt": "994548 − 4337",
+          "answer": 990211
+        }
+      ],
+      "generator": "Письменное +/− многозначных.",
+      "manual": false,
+      "generatable": true
+    },
+    {
+      "id": "p25-t2",
+      "section_id": "slozhenie-vychitanie",
+      "subsection_id": "pismennoe-slozhenie-vychitanie",
+      "book_page": 25,
+      "pdf_page": 26,
+      "number": "2",
+      "type": "expression",
+      "answer_entry": "number",
+      "prompt": "Выполни письменное сложение и вычитание.",
+      "items": [
+        {
+          "id": "a",
+          "prompt": "701379 − 547865",
+          "answer": 153514
+        },
+        {
+          "id": "b",
+          "prompt": "271097 + 94988",
+          "answer": 366085
+        },
+        {
+          "id": "c",
+          "prompt": "378574 + 489077",
+          "answer": 867651
+        },
+        {
+          "id": "d",
+          "prompt": "612345 − 397869",
+          "answer": 214476
+        }
+      ],
+      "generator": "Письменное +/− многозначных с переходом через разряд.",
+      "manual": false,
+      "generatable": true
+    },
+    {
+      "id": "p25-t3",
+      "section_id": "slozhenie-vychitanie",
+      "subsection_id": "pismennoe-slozhenie-vychitanie",
+      "book_page": 25,
+      "pdf_page": 26,
+      "number": "3",
+      "type": "table_compute",
+      "answer_entry": "number",
+      "prompt": "Заполни таблицу: a, b, a+b, a−b (дана часть клеток).",
+      "items": [
+        {
+          "id": "c1",
+          "prompt": "a=287669, b=34876",
+          "answer": {
+            "sum": 322545,
+            "diff": 252793
+          }
+        },
+        {
+          "id": "c2",
+          "prompt": "a=601834, a+b=830558; найти b и a−b",
+          "answer": {
+            "b": 228724,
+            "diff": 373110
+          }
+        },
+        {
+          "id": "c3",
+          "prompt": "b=4197, a−b=60999; найти a и a+b",
+          "answer": {
+            "a": 65196,
+            "sum": 69393
+          }
+        },
+        {
+          "id": "c4",
+          "prompt": "a=891337, a−b=61435; найти b и a+b",
+          "answer": {
+            "b": 829902,
+            "sum": 1721239
+          }
+        }
+      ],
+      "generator": "Восстановление a, b, суммы и разности.",
+      "manual": false,
+      "generatable": true
+    },
+    {
+      "id": "p26-t1",
+      "section_id": "slozhenie-vychitanie",
+      "subsection_id": "chetvertoe-proporcionalnoe-otnosheniya",
+      "book_page": 26,
+      "pdf_page": 27,
+      "number": "1",
+      "type": "ratio_problem",
+      "answer_entry": "number",
+      "prompt": "За 6 ч изготовили 15 механизмов. Сколько механизмов изготовят за 18 ч при той же производительности?",
+      "answer": 45,
+      "unit": "механизмов",
+      "generator": "Четвёртое пропорциональное: x = a/b · c.",
+      "manual": false,
+      "generatable": true
+    },
+    {
+      "id": "p26-t2",
+      "section_id": "slozhenie-vychitanie",
+      "subsection_id": "chetvertoe-proporcionalnoe-otnosheniya",
+      "book_page": 26,
+      "pdf_page": 27,
+      "number": "2",
+      "type": "ratio_problem",
+      "answer_entry": "number",
+      "prompt": "За 6 дней собрали 11 шкафов. Сколько шкафов соберут за 30 дней?",
+      "answer": 55,
+      "unit": "шкафов",
+      "manual": false,
+      "generatable": true
+    },
+    {
+      "id": "p26-t3",
+      "section_id": "slozhenie-vychitanie",
+      "subsection_id": "chetvertoe-proporcionalnoe-otnosheniya",
+      "book_page": 26,
+      "pdf_page": 27,
+      "number": "3",
+      "type": "ratio_problem",
+      "answer_entry": "number",
+      "prompt": "За 8 ч прошли 70 км. Какое расстояние пройдут за 4 ч с той же скоростью?",
+      "answer": 35,
+      "unit": "км",
+      "manual": false,
+      "generatable": true
+    },
+    {
+      "id": "p27-theory",
+      "section_id": "dvizhenie",
+      "book_page": 27,
+      "pdf_page": 28,
+      "number": "—",
+      "type": "theory",
+      "answer_entry": "none",
+      "prompt": "Теория встречного движения и движения в противоположных направлениях.",
+      "manual": true,
+      "generatable": false,
+      "manual_note": "Только справочный материал."
+    },
+    {
+      "id": "p28-t1",
+      "section_id": "dvizhenie",
+      "subsection_id": "dvizhenie-protivopolozhnye",
+      "book_page": 28,
+      "pdf_page": 29,
+      "number": "1",
+      "type": "word_problem",
+      "answer_entry": "number",
+      "prompt": "Два лыжника вышли одновременно в противоположных направлениях со скоростями 7 км/ч и 8 км/ч. Через сколько часов расстояние между ними будет 45 км?",
+      "answer": 3,
+      "unit": "ч",
+      "generator": "t = s / (v1+v2).",
+      "manual": false,
+      "generatable": true
+    },
+    {
+      "id": "p28-t2",
+      "section_id": "dvizhenie",
+      "subsection_id": "dvizhenie-protivopolozhnye",
+      "book_page": 28,
+      "pdf_page": 29,
+      "number": "2",
+      "type": "word_problem",
+      "answer_entry": "number",
+      "prompt": "Вертолёт летит 300 км/ч, второй на 50 км/ч быстрее. Расстояние 6500 км, старт одновременно в противоположных направлениях. Через сколько часов расстояние между ними будет 6500 км? (второй: 350 км/ч)",
+      "answer": 10,
+      "unit": "ч",
+      "note": "Точную формулировку сверить со с. 28; 6500:(300+350)=10.",
+      "manual": false,
+      "generatable": true
+    },
+    {
+      "id": "p28-t3",
+      "section_id": "dvizhenie",
+      "subsection_id": "dvizhenie-protivopolozhnye",
+      "book_page": 28,
+      "pdf_page": 29,
+      "number": "3",
+      "type": "word_problem",
+      "answer_entry": "number",
+      "prompt": "Две антилопы побежали в противоположных направлениях. Через 2 ч расстояние между ними 220 км. Скорость второй 50 км/ч. Найди скорость первой.",
+      "answer": 60,
+      "unit": "км/ч",
+      "manual": false,
+      "generatable": true
+    },
+    {
+      "id": "p29-t1",
+      "section_id": "dvizhenie",
+      "subsection_id": "dvizhenie-vstrechnoe",
+      "book_page": 29,
+      "pdf_page": 30,
+      "number": "1",
+      "type": "word_problem",
+      "answer_entry": "number",
+      "prompt": "Два скворца летят навстречу друг другу со скоростями 20 м/с и 15 м/с. Расстояние 210 м. Через сколько секунд они встретятся?",
+      "answer": 6,
+      "unit": "с",
+      "manual": false,
+      "generatable": true
+    },
+    {
+      "id": "p29-t2",
+      "section_id": "dvizhenie",
+      "subsection_id": "dvizhenie-vstrechnoe",
+      "book_page": 29,
+      "pdf_page": 30,
+      "number": "2",
+      "type": "word_problem",
+      "answer_entry": "number",
+      "prompt": "Два велосипедиста выехали навстречу со скоростями 14 км/ч и 12 км/ч. Расстояние 78 км. Через сколько часов встретятся?",
+      "answer": 3,
+      "unit": "ч",
+      "manual": false,
+      "generatable": true
+    },
+    {
+      "id": "p29-t3",
+      "section_id": "dvizhenie",
+      "subsection_id": "dvizhenie-vstrechnoe",
+      "book_page": 29,
+      "pdf_page": 30,
+      "number": "3",
+      "type": "word_problem",
+      "answer_entry": "number",
+      "prompt": "Две осы летят навстречу со скоростями 120 м/мин и 130 м/мин. Расстояние 1 км. Через сколько минут встретятся?",
+      "answer": 4,
+      "unit": "мин",
+      "manual": false,
+      "generatable": true
+    },
+    {
+      "id": "p30-t1",
+      "section_id": "dvizhenie",
+      "subsection_id": "pismennoe-slozhenie-velichin",
+      "book_page": 30,
+      "pdf_page": 31,
+      "number": "1",
+      "type": "unit_conversion",
+      "answer_entry": "number",
+      "prompt": "Заполни таблицу: вырази в метрах и в дециметрах.",
+      "items": [
+        {
+          "id": "a",
+          "prompt": "2 км 340 м",
+          "answer": {
+            "m": 2340,
+            "dm": 23400
+          }
+        },
+        {
+          "id": "b",
+          "prompt": "80 км 700 см",
+          "answer": {
+            "m": 80007,
+            "dm": 800070
+          }
+        },
+        {
+          "id": "c",
+          "prompt": "37 000 см",
+          "answer": {
+            "m": 370,
+            "dm": 3700
+          }
+        },
+        {
+          "id": "d",
+          "prompt": "500 000 мм",
+          "answer": {
+            "m": 500,
+            "dm": 5000
+          }
+        },
+        {
+          "id": "e",
+          "prompt": "27 км",
+          "answer": {
+            "m": 27000,
+            "dm": 270000
+          }
+        },
+        {
+          "id": "f",
+          "prompt": "17 км 53 000 мм",
+          "answer": {
+            "m": 17053,
+            "dm": 170530
+          }
+        }
+      ],
+      "generator": "Перевод составных длин в м и дм.",
+      "manual": false,
+      "generatable": true
+    },
+    {
+      "id": "p30-t2",
+      "section_id": "dvizhenie",
+      "subsection_id": "pismennoe-slozhenie-velichin",
+      "book_page": 30,
+      "pdf_page": 31,
+      "number": "2",
+      "type": "expression",
+      "answer_entry": "compound_measure",
+      "prompt": "Выполни вычисления по образцу (письменное сложение длин). Образец: 69 км 547 м + 11 км 44 м = 80 км 591 м. Далее на с. 30–31:",
+      "items": [
+        {
+          "id": "a",
+          "book_page": 30,
+          "prompt": "29 км 99 м + 75 км 367 м",
+          "answer": "104 км 466 м"
+        },
+        {
+          "id": "b",
+          "book_page": 31,
+          "pdf_page": 32,
+          "prompt": "600 км 461 м − 472 км 82 м",
+          "answer": "128 км 379 м"
+        },
+        {
+          "id": "c",
+          "book_page": 31,
+          "pdf_page": 32,
+          "prompt": "437 дм 59 см + 303 дм 86 см",
+          "answer": "754 дм 5 см",
+          "acceptable": [
+            "754 дм 5 см",
+            "75 м 4 дм 5 см",
+            "75 м 45 см"
+          ]
+        }
+      ],
+      "generator": "Письменное +/− составных длин.",
+      "manual": false,
+      "generatable": true
+    },
+    {
+      "id": "p31-t3",
+      "section_id": "dvizhenie",
+      "subsection_id": "pismennoe-slozhenie-velichin",
+      "book_page": 31,
+      "pdf_page": 32,
+      "number": "3",
+      "type": "unit_conversion",
+      "answer_entry": "number",
+      "prompt": "Заполни таблицу: вырази в килограммах и в центнерах.",
+      "items": [
+        {
+          "id": "a",
+          "prompt": "19 т",
+          "answer": {
+            "kg": 19000,
+            "q": 190
+          }
+        },
+        {
+          "id": "b",
+          "prompt": "175 т 13 ц",
+          "answer": {
+            "kg": 176300,
+            "q": 1763
+          }
+        },
+        {
+          "id": "c",
+          "prompt": "60 т 300 кг",
+          "answer": {
+            "kg": 60300,
+            "q": 603
+          }
+        },
+        {
+          "id": "d",
+          "prompt": "15 000 г",
+          "answer": {
+            "kg": 15,
+            "q": 0.15
+          },
+          "acceptable": {
+            "kg": [
+              "15 кг"
+            ],
+            "q": [
+              "0,15 ц",
+              "15/100 ц"
+            ]
+          }
+        },
+        {
+          "id": "e",
+          "prompt": "900 000 г",
+          "answer": {
+            "kg": 900,
+            "q": 9
+          }
+        },
+        {
+          "id": "f",
+          "prompt": "84 т 1 000 000 г",
+          "answer": {
+            "kg": 85000,
+            "q": 850
+          }
+        },
+        {
+          "id": "g",
+          "prompt": "900 т 36 ц 500 кг",
+          "answer": {
+            "kg": 904100,
+            "q": 9041
+          }
+        },
+        {
+          "id": "h",
+          "prompt": "570 000 кг",
+          "answer": {
+            "kg": 570000,
+            "q": 5700
+          }
+        },
+        {
+          "id": "i",
+          "prompt": "7 т 86 ц 3000 кг",
+          "answer": {
+            "kg": 18600,
+            "q": 186
+          }
+        },
+        {
+          "id": "j",
+          "prompt": "48 ц 15 000 кг 400 000 г",
+          "answer": {
+            "kg": 20200,
+            "q": 202
+          }
+        }
+      ],
+      "generator": "Перевод массы: 1 т=1000 кг=10 ц, 1 ц=100 кг, 1 кг=1000 г.",
+      "manual": false,
+      "generatable": true
+    },
+    {
+      "id": "p32-t4",
+      "section_id": "dvizhenie",
+      "subsection_id": "pismennoe-slozhenie-velichin",
+      "book_page": 32,
+      "pdf_page": 33,
+      "number": "4",
+      "type": "expression",
+      "answer_entry": "compound_measure",
+      "prompt": "Выполни вычисления по образцу. Образец: 801 кг 15 г − 799 кг 453 г = 1 кг 562 г.",
+      "items": [
+        {
+          "id": "a",
+          "book_page": 32,
+          "prompt": "14 кг 396 г + 59 кг 788 г",
+          "answer": "74 кг 184 г"
+        },
+        {
+          "id": "b",
+          "book_page": 32,
+          "prompt": "541 т 34 ц + 69 т 78 ц",
+          "answer": "621 т 2 ц",
+          "reason": "34+78=112 ц=11 т 2 ц (1 т=10 ц)"
+        },
+        {
+          "id": "c",
+          "book_page": 33,
+          "pdf_page": 34,
+          "prompt": "8 т 69 кг − 4 т 338 кг",
+          "answer": "3 т 731 кг"
+        }
+      ],
+      "generator": "Письменное +/− составных масс.",
+      "manual": false,
+      "generatable": true
+    },
+    {
+      "id": "p33-t5",
+      "section_id": "dvizhenie",
+      "subsection_id": "pismennoe-slozhenie-velichin",
+      "book_page": 33,
+      "pdf_page": 34,
+      "number": "5",
+      "type": "unit_conversion",
+      "answer_entry": "compound_measure",
+      "prompt": "Заполни таблицу: вырази в минутах и в часах.",
+      "items": [
+        {
+          "id": "min1",
+          "prompt": "6 ч в мин",
+          "answer": 360,
+          "unit": "мин"
+        },
+        {
+          "id": "min2",
+          "prompt": "7 ч 15 мин в мин",
+          "answer": 435,
+          "unit": "мин"
+        },
+        {
+          "id": "min3",
+          "prompt": "360 с в мин",
+          "answer": 6,
+          "unit": "мин"
+        },
+        {
+          "id": "min4",
+          "prompt": "720 с в мин",
+          "answer": 12,
+          "unit": "мин"
+        },
+        {
+          "id": "min5",
+          "prompt": "10 ч 480 с в мин",
+          "answer": 608,
+          "unit": "мин",
+          "acceptable": [
+            "608 мин",
+            "10 ч 8 мин"
+          ]
+        },
+        {
+          "id": "min6",
+          "prompt": "5 ч 14 мин 540 с в мин",
+          "answer": 323,
+          "unit": "мин",
+          "acceptable": [
+            "323 мин",
+            "5 ч 23 мин"
+          ]
+        },
+        {
+          "id": "min7",
+          "prompt": "19 с в мин",
+          "answer": "0 мин 19 с",
+          "acceptable": [
+            "0 мин 19 с",
+            "19/60 мин",
+            "19 с"
+          ]
+        },
+        {
+          "id": "h1",
+          "prompt": "8 сут. в ч",
+          "answer": 192,
+          "unit": "ч"
+        },
+        {
+          "id": "h2",
+          "prompt": "10 сут. в ч",
+          "answer": 240,
+          "unit": "ч"
+        },
+        {
+          "id": "h3",
+          "prompt": "420 мин в ч",
+          "answer": 7,
+          "unit": "ч"
+        },
+        {
+          "id": "h4",
+          "prompt": "3 сут. 360 мин в ч",
+          "answer": 78,
+          "unit": "ч",
+          "acceptable": [
+            "78 ч",
+            "3 сут. 6 ч"
+          ]
+        },
+        {
+          "id": "h5",
+          "prompt": "3600 с в ч",
+          "answer": 1,
+          "unit": "ч"
+        },
+        {
+          "id": "h6",
+          "prompt": "4 сут. 480 мин в ч",
+          "answer": 104,
+          "unit": "ч",
+          "acceptable": [
+            "104 ч",
+            "4 сут. 8 ч"
+          ]
+        },
+        {
+          "id": "h7",
+          "prompt": "30 сут. 10 ч 240 мин в ч",
+          "answer": 734,
+          "unit": "ч",
+          "acceptable": [
+            "734 ч",
+            "30 сут. 14 ч"
+          ]
+        }
+      ],
+      "generator": "Перевод единиц времени в мин и в ч.",
+      "manual": false,
+      "generatable": true
+    },
+    {
+      "id": "p34-t1",
+      "section_id": "dvizhenie",
+      "subsection_id": "vremya-nachala-prodolzhitelnosti",
+      "book_page": 34,
+      "pdf_page": 35,
+      "number": "1",
+      "type": "time_clock",
+      "answer_entry": "time",
+      "prompt": "Найди время начала, окончания или продолжительность события. Рисование на циферблате — вручную, запись времени — авто.",
+      "items": [
+        {
+          "id": "A",
+          "prompt": "Фильм начался в 10:30, шёл 2 ч 20 мин. Когда закончился?",
+          "answer": "12:50"
+        },
+        {
+          "id": "B",
+          "prompt": "Рыбак вернулся в 10:28, был на рыбалке 4 ч 45 мин. Когда вышел?",
+          "answer": "5:43"
+        },
+        {
+          "id": "C",
+          "prompt": "Маршрутка выехала в 12:30, в пути 1 ч 45 мин. Когда прибыла?",
+          "answer": "14:15"
+        },
+        {
+          "id": "D",
+          "prompt": "Вышел из дома в 7:15, дорога по 25 мин в каждый конец, рабочий день 8 ч. Когда вернётся?",
+          "answer": "16:05"
+        }
+      ],
+      "manual": true,
+      "generatable": true,
+      "manual_note": "Подписи времени проверяются автоматически. Если на с. 34 нужно нарисовать стрелки — это вручную. Сюжеты A–Г сверить формулировки со страницей; арифметика времени проверена.",
+      "generator": "Сложение и вычитание промежутков времени."
+    },
+    {
+      "id": "p35-t2",
+      "section_id": "dvizhenie",
+      "subsection_id": "vremya-nachala-prodolzhitelnosti",
+      "book_page": 35,
+      "pdf_page": 36,
+      "number": "2",
+      "type": "table_compute",
+      "answer_entry": "time",
+      "prompt": "Заполни таблицу расписания поездов (отправление, время в пути, прибытие).",
+      "items": [
+        {
+          "id": "a",
+          "prompt": "Прага—Москва: 00:25, прибытие 2:05, время в пути?",
+          "answer": "1 ч 40 мин"
+        },
+        {
+          "id": "b",
+          "prompt": "Брест—Москва: отправление 3:15, в пути 2 ч 1 мин, прибытие?",
+          "answer": "5:16"
+        },
+        {
+          "id": "c",
+          "prompt": "Брест—Витебск: прибытие 6:01, в пути 1 ч 59 мин, отправление?",
+          "answer": "4:02"
+        },
+        {
+          "id": "d",
+          "prompt": "Брест—Минск: прибытие 7:46, в пути 2 ч 4 мин, отправление?",
+          "answer": "5:42"
+        },
+        {
+          "id": "e",
+          "prompt": "Барановичи—Минск: отправление 7:42, в пути 2 ч 38 мин, прибытие?",
+          "answer": "10:20"
+        },
+        {
+          "id": "f",
+          "prompt": "Пинск—Минск: 9:13 → 11:04, время в пути?",
+          "answer": "1 ч 51 мин"
+        },
+        {
+          "id": "g",
+          "prompt": "Брест—Минск: отправление 16:35, в пути 1 ч 30 мин, прибытие?",
+          "answer": "18:05"
+        }
+      ],
+      "generator": "Сложение и вычитание времени в расписании.",
+      "manual": false,
+      "generatable": true
+    },
+    {
+      "id": "p36-t1",
+      "section_id": "umnozhenie-delenie",
+      "subsection_id": "pism-umn-na-odnoznachnoe",
+      "book_page": 36,
+      "pdf_page": 37,
+      "number": "1",
+      "type": "expression",
+      "answer_entry": "number",
+      "prompt": "Выполни письменное умножение многозначного на однозначное.",
+      "items": [
+        {
+          "id": "a",
+          "prompt": "234213 · 2",
+          "answer": 468426
+        },
+        {
+          "id": "b",
+          "prompt": "113223 · 3",
+          "answer": 339669
+        },
+        {
+          "id": "c",
+          "prompt": "441234 · 2",
+          "answer": 882468
+        },
+        {
+          "id": "d",
+          "prompt": "53789 · 3",
+          "answer": 161367
+        },
+        {
+          "id": "e",
+          "prompt": "246788 · 4",
+          "answer": 987152
+        },
+        {
+          "id": "f",
+          "prompt": "649332 · 5",
+          "answer": 3246660
+        }
+      ],
+      "generator": "Письменное × на однозначное.",
+      "manual": false,
+      "generatable": true
+    },
+    {
+      "id": "p37-t2",
+      "section_id": "umnozhenie-delenie",
+      "subsection_id": "pism-umn-na-odnoznachnoe",
+      "book_page": 37,
+      "pdf_page": 38,
+      "number": "2",
+      "type": "expression",
+      "answer_entry": "compound_measure",
+      "prompt": "Умножь составные величины на однозначное число.",
+      "items": [
+        {
+          "id": "a",
+          "prompt": "35 т 408 кг · 3",
+          "answer": "106 т 224 кг",
+          "reason": "35408·3=106224 кг"
+        },
+        {
+          "id": "b",
+          "prompt": "19 км 337 м · 8",
+          "answer": "154 км 696 м",
+          "reason": "19337·8=154696 м"
+        }
+      ],
+      "generator": "× составной величины на однозначное с переводом единиц.",
+      "manual": false,
+      "generatable": true
+    },
+    {
+      "id": "p37-t3",
+      "section_id": "umnozhenie-delenie",
+      "subsection_id": "pism-umn-na-odnoznachnoe",
+      "book_page": 37,
+      "pdf_page": 38,
+      "number": "3",
+      "type": "order_of_operations",
+      "answer_entry": "order_and_number",
+      "prompt": "Расставь порядок действий и вычисли.",
+      "items": [
+        {
+          "id": "a",
+          "prompt": "3780 · 4 + 60900 · 7",
+          "answer": 441420,
+          "order": "①×, ②×, ③+"
+        },
+        {
+          "id": "b",
+          "prompt": "315000 · 3 − 6040 · 8",
+          "answer": 896680,
+          "order": "①×, ②×, ③−"
+        },
+        {
+          "id": "c",
+          "prompt": "(6400 · 4 + 9080 · 3) · 5",
+          "answer": 264200,
+          "order": "①× внутри скобок, ②×, ③+, ④×5"
+        }
+      ],
+      "generator": "Порядок действий и письменное × на однозначное.",
+      "manual": false,
+      "generatable": true
+    },
+    {
+      "id": "p38-t1",
+      "section_id": "umnozhenie-delenie",
+      "subsection_id": "chetvertoe-proporcionalnoe-postoyannaya",
+      "book_page": 38,
+      "pdf_page": 39,
+      "number": "1",
+      "type": "word_problem",
+      "answer_entry": "number_and_choice",
+      "prompt": "С двух участков собрали 520 кг картофеля в одинаковые мешки: 4 мешка с первого участка и 6 со второго. Сколько килограммов картофеля собрали с каждого участка? Отметь вопрос, который нужно решить, чтобы ответить на главный.",
+      "items": [
+        {
+          "id": "one_sack",
+          "prompt": "Сколько весит один мешок?",
+          "answer": 52,
+          "unit": "кг"
+        },
+        {
+          "id": "first",
+          "prompt": "С первого участка",
+          "answer": 208,
+          "unit": "кг"
+        },
+        {
+          "id": "second",
+          "prompt": "Со второго участка",
+          "answer": 312,
+          "unit": "кг"
+        },
+        {
+          "id": "useful",
+          "prompt": "Нужный промежуточный вопрос",
+          "answer": "Сколько весит один мешок картофеля?"
+        }
+      ],
+      "note": "Другие предложенные вопросы (сколько всего кг — уже дано 520; на сколько меньше мешков; сколько весят 2 мешка; сколько мешков с первого — дано) для решения не нужны. Возможен другой корректный путь.",
+      "generator": "Постоянная величина (масса мешка): всего : сумму количеств.",
+      "manual": false,
+      "generatable": true
+    },
+    {
+      "id": "p38-t2",
+      "section_id": "umnozhenie-delenie",
+      "subsection_id": "chetvertoe-proporcionalnoe-postoyannaya",
+      "book_page": 38,
+      "pdf_page": 39,
+      "number": "2",
+      "type": "word_problem",
+      "answer_entry": "number",
+      "prompt": "108 роз: 4 белых букета и 8 красных, в каждом букете поровну цветов. Сколько белых и сколько красных роз?",
+      "items": [
+        {
+          "id": "in_one",
+          "prompt": "Роз в одном букете",
+          "answer": 9
+        },
+        {
+          "id": "white",
+          "prompt": "Белых",
+          "answer": 36
+        },
+        {
+          "id": "red",
+          "prompt": "Красных",
+          "answer": 72
+        }
+      ],
+      "generator": "Постоянная величина — число цветов в букете.",
+      "manual": false,
+      "generatable": true
+    },
+    {
+      "id": "p39-t3",
+      "section_id": "umnozhenie-delenie",
+      "subsection_id": "chetvertoe-proporcionalnoe-postoyannaya",
+      "book_page": 39,
+      "pdf_page": 40,
+      "number": "3",
+      "type": "word_problem",
+      "answer_entry": "number",
+      "prompt": "За льняную ткань заплатили 80 р. по 20 р. за метр. За такое же количество шёлковой ткани по 40 р. за метр — сколько заплатят?",
+      "items": [
+        {
+          "id": "len",
+          "prompt": "Метров льна (и шёлка)",
+          "answer": 4,
+          "unit": "м"
+        },
+        {
+          "id": "silk",
+          "prompt": "Стоимость шёлка",
+          "answer": 160,
+          "unit": "р."
+        }
+      ],
+      "generator": "Постоянная величина — длина куска.",
+      "manual": false,
+      "generatable": true
+    },
+    {
+      "id": "p40-t1",
+      "section_id": "umnozhenie-delenie",
+      "subsection_id": "pism-del-na-odnoznachnoe",
+      "book_page": 40,
+      "pdf_page": 41,
+      "number": "1",
+      "type": "division_remainder",
+      "answer_entry": "quotient_remainder",
+      "prompt": "Выполни письменное деление на однозначное. В примерах с остатком обведи цифру остатка.",
+      "items": [
+        {
+          "id": "a",
+          "prompt": "72981 : 3",
+          "answer": {
+            "q": 24327,
+            "r": 0
+          }
+        },
+        {
+          "id": "b",
+          "prompt": "82188 : 6",
+          "answer": {
+            "q": 13698,
+            "r": 0
+          }
+        },
+        {
+          "id": "c",
+          "prompt": "95516 : 4",
+          "answer": {
+            "q": 23879,
+            "r": 0
+          }
+        },
+        {
+          "id": "d",
+          "prompt": "9449 : 3",
+          "answer": {
+            "q": 3149,
+            "r": 2
+          },
+          "circle_remainder": true
+        },
+        {
+          "id": "e",
+          "prompt": "64358 : 3",
+          "answer": {
+            "q": 21452,
+            "r": 2
+          },
+          "circle_remainder": true
+        },
+        {
+          "id": "f",
+          "prompt": "32781 : 7",
+          "answer": {
+            "q": 4683,
+            "r": 0
+          }
+        }
+      ],
+      "generator": "Письменное деление на однозначное, в т.ч. с остатком.",
+      "manual": false,
+      "generatable": true
+    },
+    {
+      "id": "p41-t2",
+      "section_id": "umnozhenie-delenie",
+      "subsection_id": "pism-del-na-odnoznachnoe",
+      "book_page": 41,
+      "pdf_page": 42,
+      "number": "2",
+      "type": "division",
+      "answer_entry": "number",
+      "prompt": "Выполни письменное деление (сокращённая запись).",
+      "items": [
+        {
+          "id": "a",
+          "prompt": "6243 : 3",
+          "answer": 2081
+        },
+        {
+          "id": "b",
+          "prompt": "6186 : 2",
+          "answer": 3093
+        },
+        {
+          "id": "c",
+          "prompt": "105210 : 7",
+          "answer": 15030
+        },
+        {
+          "id": "d",
+          "prompt": "723216 : 8",
+          "answer": 90402
+        }
+      ],
+      "generator": "Деление на однозначное, в частном есть нули.",
+      "manual": false,
+      "generatable": true
+    },
+    {
+      "id": "p41-t3",
+      "section_id": "umnozhenie-delenie",
+      "subsection_id": "pism-del-na-odnoznachnoe",
+      "book_page": 41,
+      "pdf_page": 42,
+      "number": "3",
+      "type": "table_compute",
+      "answer_entry": "number",
+      "prompt": "Заполни таблицу: делимое, делитель, частное.",
+      "items": [
+        {
+          "id": "c1",
+          "prompt": "238406 : 7",
+          "answer": {
+            "q": 34058
+          }
+        },
+        {
+          "id": "c2",
+          "prompt": "152340 : ? = 3, найти делитель? (частное 50780?)",
+          "note": "По разбору: 152340 : x даёт известное частное, делитель=3, частное=50780.",
+          "answer": {
+            "divisor": 3,
+            "q": 50780
+          }
+        },
+        {
+          "id": "c3",
+          "prompt": "? : 6027 = 7, найти делимое",
+          "answer": {
+            "dividend": 42189
+          }
+        },
+        {
+          "id": "c4",
+          "prompt": "392120 : 4",
+          "answer": {
+            "q": 98030
+          }
+        }
+      ],
+      "generator": "Восстановление компонента деления.",
+      "manual": false,
+      "generatable": true
+    },
+    {
+      "id": "p42-t4",
+      "section_id": "umnozhenie-delenie",
+      "subsection_id": "pism-del-na-odnoznachnoe",
+      "book_page": 42,
+      "pdf_page": 43,
+      "number": "4",
+      "type": "error_check",
+      "answer_entry": "boolean_and_number",
+      "prompt": "Обведи в овал примеры, решённые верно. Исправь ошибки в неверно решённых. Делитель на скане в уголке не подписан отдельно — восстановлен по согласованности вычитаний в столбике. Продолжение на с. 43.",
+      "items": [
+        {
+          "id": "a",
+          "book_page": 42,
+          "prompt": "42637 : 7, в книге частное 69",
+          "given": 69,
+          "correct": false,
+          "answer": {
+            "q": 6091,
+            "r": 0
+          },
+          "reason": "Забыли нуль и последнюю цифру; 7·6091=42637"
+        },
+        {
+          "id": "b",
+          "book_page": 42,
+          "prompt": "832063 : 3, в книге частное 27735, остаток 1",
+          "given": {
+            "q": 27735,
+            "r": 1
+          },
+          "correct": false,
+          "answer": {
+            "q": 277354,
+            "r": 1
+          },
+          "reason": "Не снесли последнюю цифру 3"
+        },
+        {
+          "id": "c",
+          "book_page": 42,
+          "prompt": "231605 : 5, в книге частное 3432",
+          "given": 3432,
+          "correct": false,
+          "answer": {
+            "q": 46321,
+            "r": 0
+          }
+        },
+        {
+          "id": "d",
+          "book_page": 42,
+          "prompt": "294324 : 4, в книге частное 7358",
+          "given": 7358,
+          "correct": false,
+          "answer": {
+            "q": 73581,
+            "r": 0
+          },
+          "reason": "Не снесли последнюю цифру 4"
+        },
+        {
+          "id": "e",
+          "book_page": 43,
+          "pdf_page": 44,
+          "prompt": "8640328 : 8, в книге частное 1130004",
+          "given": 1130004,
+          "correct": false,
+          "answer": {
+            "q": 1080041,
+            "r": 0
+          }
+        },
+        {
+          "id": "f",
+          "book_page": 43,
+          "pdf_page": 44,
+          "prompt": "2930505 : 5, в книге частное 5861",
+          "given": 5861,
+          "correct": false,
+          "answer": {
+            "q": 586101,
+            "r": 0
+          },
+          "reason": "Не довели столбик до конца"
+        }
+      ],
+      "note": "Все шесть напечатанных решений неверны — обводить нечего, все исправить. Делители восстановлены из столбика.",
+      "generator": "Поиск ошибок в письменном делении.",
+      "manual": false,
+      "generatable": true
+    },
+    {
+      "id": "p43-t5",
+      "section_id": "umnozhenie-delenie",
+      "subsection_id": "pism-del-na-odnoznachnoe",
+      "book_page": 43,
+      "pdf_page": 44,
+      "number": "5",
+      "type": "division",
+      "answer_entry": "compound_measure",
+      "prompt": "Вычисли по образцу. Образец: 25 т 32 кг : 8 = 3 т 129 кг (25032:8=3129 кг).",
+      "items": [
+        {
+          "id": "a",
+          "prompt": "426 р. 30 к. : 7",
+          "answer": "60 р. 90 к.",
+          "acceptable": [
+            "60 р. 90 к.",
+            "6090 к."
+          ],
+          "reason": "42630 к. : 7 = 6090 к."
+        }
+      ],
+      "generator": "Деление составной величины (через меньшую единицу).",
+      "manual": false,
+      "generatable": true
+    },
+    {
+      "id": "p44-t1",
+      "section_id": "umnozhenie-delenie",
+      "subsection_id": "umn-del-na-10-100-1000",
+      "book_page": 44,
+      "pdf_page": 45,
+      "number": "1",
+      "type": "expression",
+      "answer_entry": "number",
+      "prompt": "Умножь на 100 и на 1000 (единицы величин сохраняются).",
+      "items": [
+        {
+          "id": "x100",
+          "prompt": "×100",
+          "answer": [
+            1500,
+            19000,
+            40000,
+            "900000 мм",
+            "180000 кг",
+            32000,
+            420000,
+            200000
+          ],
+          "details": [
+            "15×100=1500",
+            "190×100=19000",
+            "400×100=40000",
+            "9000 мм×100=900000 мм",
+            "1800 кг×100=180000 кг",
+            "4·80=320, ×100=32000",
+            "700·6=4200, ×100=420000",
+            "40·50=2000, ×100=200000"
+          ]
+        },
+        {
+          "id": "x1000",
+          "prompt": "×1000",
+          "answer": [
+            9000,
+            63000,
+            170000,
+            "500000 дм",
+            "1000000 м",
+            120000,
+            8100000,
+            600000
+          ],
+          "details": [
+            "9×1000=9000",
+            "63×1000=63000",
+            "170×1000=170000",
+            "500 дм×1000=500000 дм",
+            "1000 м×1000=1000000 м",
+            "3·40=120, ×1000=120000",
+            "900·9=8100, ×1000=8100000",
+            "20·30=600, ×1000=600000"
+          ]
+        }
+      ],
+      "note": "Конкретные исходные числа сверить со с. 44; произведения проверены.",
+      "generator": "×10^n, в том числе после устного произведения в скобках.",
+      "manual": false,
+      "generatable": true
+    },
+    {
+      "id": "p44-t2",
+      "section_id": "umnozhenie-delenie",
+      "subsection_id": "umn-del-na-10-100-1000",
+      "book_page": 44,
+      "pdf_page": 45,
+      "number": "2",
+      "type": "expression",
+      "answer_entry": "number",
+      "prompt": "Раздели на 100 и на 1000.",
+      "items": [
+        {
+          "id": "d100",
+          "prompt": ":100",
+          "answer": [
+            6,
+            90,
+            1400,
+            "56 см",
+            "9000 м",
+            45,
+            5,
+            800
+          ],
+          "details": [
+            "600:100=6",
+            "9000:100=90",
+            "140000:100=1400",
+            "5600 см:100=56 см",
+            "900000 м:100=9000 м",
+            "900·5=4500, :100=45",
+            "3000:6=500, :100=5",
+            "800000:10=80000, :100=800"
+          ]
+        },
+        {
+          "id": "d1000",
+          "prompt": ":1000",
+          "answer": [
+            16,
+            1000,
+            96,
+            "310 кг",
+            "700 мин",
+            4,
+            180,
+            100
+          ],
+          "details": [
+            "16000:1000=16",
+            "1000000:1000=1000",
+            "96000:1000=96",
+            "310000 кг:1000=310 кг",
+            "700000 мин:1000=700 мин",
+            "28000:7=4000, :1000=4",
+            "300·600=180000, :1000=180",
+            "1000000:10=100000, :1000=100"
+          ]
+        }
+      ],
+      "note": "Исходные числа сверить со с. 44; частные проверены.",
+      "generator": ":10^n, в том числе после устного действия.",
+      "manual": false,
+      "generatable": true
+    },
+    {
+      "id": "p45-t1",
+      "section_id": "umnozhenie-delenie",
+      "subsection_id": "sochetatelnoe-peremestitelnoe",
+      "book_page": 45,
+      "pdf_page": 46,
+      "number": "1",
+      "type": "expression",
+      "answer_entry": "number",
+      "prompt": "Вычисли удобным способом (перестановка и группировка множителей).",
+      "items": [
+        {
+          "id": "a",
+          "answer": 80,
+          "hint": "2·8·5 = 2·5·8 = 80"
+        },
+        {
+          "id": "b",
+          "answer": 180,
+          "hint": "4·9·5 = 4·5·9 = 180"
+        },
+        {
+          "id": "c",
+          "answer": 90,
+          "hint": "3·6·5 = 3·5·6 = 90"
+        },
+        {
+          "id": "d",
+          "answer": 6700,
+          "hint": "20·67·5 = 100·67 = 6700"
+        },
+        {
+          "id": "e",
+          "answer": 789000,
+          "hint": "250·789·4 = 1000·789 = 789000"
+        },
+        {
+          "id": "f",
+          "answer": 1800,
+          "hint": "6·12·5·5 = 6·12·25 = 1800"
+        }
+      ],
+      "note": "Точные произведения-сомножители сверить со с. 45; значения проверены.",
+      "generator": "Группировка множителей, дающих 10, 100, 25 и т.п.",
+      "manual": false,
+      "generatable": true
+    },
+    {
+      "id": "p46-t2",
+      "section_id": "umnozhenie-delenie",
+      "subsection_id": "sochetatelnoe-peremestitelnoe",
+      "book_page": 46,
+      "pdf_page": 47,
+      "number": "2",
+      "type": "expression",
+      "answer_entry": "number",
+      "prompt": "Вычисли, пользуясь свойствами умножения.",
+      "items": [
+        {
+          "id": "a",
+          "prompt": "34·30",
+          "answer": 1020
+        },
+        {
+          "id": "b",
+          "prompt": "69·60",
+          "answer": 4140
+        },
+        {
+          "id": "c",
+          "prompt": "77·80",
+          "answer": 6160
+        },
+        {
+          "id": "d",
+          "prompt": "58·400",
+          "answer": 23200
+        },
+        {
+          "id": "e",
+          "prompt": "92·3000",
+          "answer": 276000
+        },
+        {
+          "id": "f",
+          "prompt": "400·64",
+          "answer": 25600
+        },
+        {
+          "id": "g",
+          "prompt": "2000·93",
+          "answer": 186000
+        },
+        {
+          "id": "h",
+          "prompt": "39·6000",
+          "answer": 234000
+        }
+      ],
+      "generator": "× на 30, 60, 80, 400… через × на однозначное и на 10^n.",
+      "manual": false,
+      "generatable": true
+    },
+    {
+      "id": "p46-t3",
+      "section_id": "umnozhenie-delenie",
+      "subsection_id": "sochetatelnoe-peremestitelnoe",
+      "book_page": 46,
+      "pdf_page": 47,
+      "number": "3",
+      "type": "compare",
+      "answer_entry": "sign",
+      "prompt": "Поставь знак >, < или =, не вычисляя полностью (перестановка множителей).",
+      "items": [
+        {
+          "id": "a",
+          "prompt": "16·7·8  ○  (16·8)·7",
+          "answer": "="
+        },
+        {
+          "id": "b",
+          "prompt": "(250·60)·3  ○  (3·60)·250",
+          "answer": "="
+        },
+        {
+          "id": "c",
+          "prompt": "52·30  ○  300·52",
+          "answer": "<"
+        },
+        {
+          "id": "d",
+          "prompt": "37·1000  ○  370·100",
+          "answer": "="
+        },
+        {
+          "id": "e",
+          "prompt": "9·(30·100)  ○  27·1000",
+          "answer": "="
+        },
+        {
+          "id": "f",
+          "prompt": "99·10000  ○  (33·30)·100",
+          "answer": ">"
+        }
+      ],
+      "generator": "Сравнение произведений свойствами, без полного счёта.",
+      "manual": false,
+      "generatable": true
+    },
+    {
+      "id": "p46-t4",
+      "section_id": "umnozhenie-delenie",
+      "subsection_id": "sochetatelnoe-peremestitelnoe",
+      "book_page": 46,
+      "pdf_page": 47,
+      "number": "4",
+      "type": "word_problem",
+      "answer_entry": "number_and_choice",
+      "prompt": "Один мастер за 8 ч выточил 96 деталей, второй за то же время — на 120 деталей больше. Сколько деталей выточат оба мастера за 30 ч? На с. 47 — поле для решения и чек-лист вопросов.",
+      "items": [
+        {
+          "id": "II_8h",
+          "prompt": "Второй мастер за 8 ч",
+          "answer": 216
+        },
+        {
+          "id": "together_1h",
+          "prompt": "Оба за 1 ч",
+          "answer": 39
+        },
+        {
+          "id": "together_30h",
+          "prompt": "Оба за 30 ч",
+          "answer": 1170
+        },
+        {
+          "id": "useful",
+          "prompt": "Полезные промежуточные вопросы (задуманный путь)",
+          "answer": [
+            "Сколько деталей может сделать II мастер за 8 ч?",
+            "Сколько деталей выточит I (II, оба) за 1 ч?",
+            "Сколько деталей выточат оба мастера за 8 ч? (альтернатива: 312, затем 312:8·30)"
+          ],
+          "not_needed": [
+            "На сколько меньше выточит за 30 ч I мастер?",
+            "Сколько деталей может сделать II мастер за 10 ч?",
+            "На сколько 30 ч больше, чем 8 ч?"
+          ]
+        }
+      ],
+      "note": "С. 47 — только клетка и список вопросов, новых условий нет. Выбор «нужных вопросов» допускает несколько верных путей.",
+      "generator": "Производительность и совместная работа.",
+      "manual": false,
+      "generatable": true
+    },
+    {
+      "id": "p47-grid",
+      "section_id": "umnozhenie-delenie",
+      "subsection_id": "sochetatelnoe-peremestitelnoe",
+      "book_page": 47,
+      "pdf_page": 48,
+      "number": "4 (продолж.)",
+      "type": "useful_questions",
+      "answer_entry": "none",
+      "prompt": "Поле для решения задачи №4 со с. 46 и перечень вопросов. Новых заданий нет.",
+      "manual": true,
+      "generatable": false,
+      "manual_note": "Рабочая клетка к p46-t4."
+    },
+    {
+      "id": "p48-t1",
+      "section_id": "umnozhenie-delenie",
+      "subsection_id": "umn-vida-612-500",
+      "book_page": 48,
+      "pdf_page": 49,
+      "number": "1",
+      "type": "expression",
+      "answer_entry": "number",
+      "prompt": "Выполни умножение вида 37·80, 108·300 (оканчивающиеся нулями).",
+      "items": [
+        {
+          "id": "a",
+          "prompt": "37·80",
+          "answer": 2960
+        },
+        {
+          "id": "b",
+          "prompt": "56·40",
+          "answer": 2240
+        },
+        {
+          "id": "c",
+          "prompt": "108·300",
+          "answer": 32400
+        },
+        {
+          "id": "d",
+          "prompt": "94·700",
+          "answer": 65800
+        },
+        {
+          "id": "e",
+          "prompt": "127·900",
+          "answer": 114300
+        },
+        {
+          "id": "f",
+          "prompt": "529·200",
+          "answer": 105800
+        },
+        {
+          "id": "g",
+          "prompt": "178·3000",
+          "answer": 534000
+        },
+        {
+          "id": "h",
+          "prompt": "245·4000",
+          "answer": 980000
+        },
+        {
+          "id": "i",
+          "prompt": "379·2000",
+          "answer": 758000
+        }
+      ],
+      "generator": "× на число с нулями: умножить на значащую часть и приписать нули.",
+      "manual": false,
+      "generatable": true
+    },
+    {
+      "id": "p48-t2",
+      "section_id": "umnozhenie-delenie",
+      "subsection_id": "umn-vida-612-500",
+      "book_page": 48,
+      "pdf_page": 49,
+      "number": "2",
+      "type": "expression",
+      "answer_entry": "number",
+      "prompt": "Вычисли (оба множителя с нулями).",
+      "items": [
+        {
+          "id": "a",
+          "prompt": "210·60",
+          "answer": 12600
+        },
+        {
+          "id": "b",
+          "prompt": "3800·70",
+          "answer": 266000
+        },
+        {
+          "id": "c",
+          "prompt": "960·700",
+          "answer": 672000
+        },
+        {
+          "id": "d",
+          "prompt": "4080·60",
+          "answer": 244800
+        },
+        {
+          "id": "e",
+          "prompt": "3700·400",
+          "answer": 1480000
+        },
+        {
+          "id": "f",
+          "prompt": "9400·800",
+          "answer": 7520000
+        }
+      ],
+      "generator": "× чисел, оканчивающихся нулями.",
+      "manual": false,
+      "generatable": true
+    },
+    {
+      "id": "p49-t3",
+      "section_id": "umnozhenie-delenie",
+      "subsection_id": "umn-vida-612-500",
+      "book_page": 49,
+      "pdf_page": 50,
+      "number": "3",
+      "type": "equation",
+      "answer_entry": "number",
+      "prompt": "Найди неизвестное.",
+      "items": [
+        {
+          "id": "a",
+          "prompt": "x : 430 = 200",
+          "answer": 86000
+        },
+        {
+          "id": "b",
+          "prompt": "x · 3000 = 270000",
+          "answer": 90
+        }
+      ],
+      "generator": "Уравнения x:a=b и x·a=b.",
+      "manual": false,
+      "generatable": true
+    },
+    {
+      "id": "p49-t4",
+      "section_id": "umnozhenie-delenie",
+      "subsection_id": "umn-vida-612-500",
+      "book_page": 49,
+      "pdf_page": 50,
+      "number": "4",
+      "type": "expression",
+      "answer_entry": "number",
+      "prompt": "Вычисли.",
+      "items": [
+        {
+          "id": "a",
+          "prompt": "(123980 + 16020) · (9000 − 8992)",
+          "answer": 1120000
+        },
+        {
+          "id": "b",
+          "prompt": "(645081 − 641481) · (91000 : 1300)",
+          "answer": 252000
+        }
+      ],
+      "generator": "Выражения со скобками и множителями с нулями.",
+      "manual": false,
+      "generatable": true
+    },
+    {
+      "id": "p50-t1",
+      "section_id": "umnozhenie-delenie",
+      "subsection_id": "delenie-na-proizvedenie",
+      "book_page": 50,
+      "pdf_page": 51,
+      "number": "1",
+      "type": "division",
+      "answer_entry": "number",
+      "prompt": "Вычисли двумя способами: a:(b·c) = (a:b):c = (a:c):b.",
+      "items": [
+        {
+          "id": "a",
+          "prompt": "200 : (10 · 4)",
+          "answer": 5
+        },
+        {
+          "id": "b",
+          "prompt": "900 : (3 · 150)",
+          "answer": 2
+        },
+        {
+          "id": "c",
+          "prompt": "64000 : (2 · 800)",
+          "answer": 40
+        },
+        {
+          "id": "d",
+          "prompt": "102000 : (3000 · 2)",
+          "answer": 17
+        }
+      ],
+      "generator": "Деление на произведение двумя способами.",
+      "manual": false,
+      "generatable": true
+    },
+    {
+      "id": "p50-t2",
+      "section_id": "umnozhenie-delenie",
+      "subsection_id": "delenie-na-proizvedenie",
+      "book_page": 50,
+      "pdf_page": 51,
+      "number": "2",
+      "type": "division",
+      "answer_entry": "number",
+      "prompt": "Вычисли, разделив на произведение.",
+      "items": [
+        {
+          "id": "a",
+          "prompt": "480 : (8 · 20)",
+          "answer": 3
+        },
+        {
+          "id": "b",
+          "prompt": "60000 : (12 · 100)",
+          "answer": 50
+        },
+        {
+          "id": "c",
+          "prompt": "135000 : (5 · 3000)",
+          "answer": 9
+        },
+        {
+          "id": "d",
+          "prompt": "390000 : (10000 · 3)",
+          "answer": 13
+        },
+        {
+          "id": "e",
+          "prompt": "760000 : (4 · 1000)",
+          "answer": 190
+        },
+        {
+          "id": "f",
+          "prompt": "960000 : (4000 · 2)",
+          "answer": 120
+        }
+      ],
+      "generator": "Устное деление на произведение.",
+      "manual": false,
+      "generatable": true
+    },
+    {
+      "id": "p51-t1",
+      "section_id": "umnozhenie-delenie",
+      "subsection_id": "ustnoe-delenie-360-30",
+      "book_page": 51,
+      "pdf_page": 52,
+      "number": "1",
+      "type": "division",
+      "answer_entry": "number",
+      "prompt": "Вычисли устно (вид 360:30). Образец: 81000:900=90.",
+      "items": [
+        {
+          "id": "a",
+          "prompt": "490:70",
+          "answer": 7
+        },
+        {
+          "id": "b",
+          "prompt": "630:90",
+          "answer": 7
+        },
+        {
+          "id": "c",
+          "prompt": "6400:800",
+          "answer": 8
+        },
+        {
+          "id": "d",
+          "prompt": "16000:2000",
+          "answer": 8
+        },
+        {
+          "id": "e",
+          "prompt": "210000:700",
+          "answer": 300
+        },
+        {
+          "id": "f",
+          "prompt": "56000:140",
+          "answer": 400
+        },
+        {
+          "id": "g",
+          "prompt": "980000:7000",
+          "answer": 140
+        },
+        {
+          "id": "h",
+          "prompt": "1000000:5000",
+          "answer": 200
+        },
+        {
+          "id": "i",
+          "prompt": "510000:170",
+          "answer": 3000
+        }
+      ],
+      "generator": "Устное деление: сократить нули / разделить на однозначные.",
+      "manual": false,
+      "generatable": true
+    },
+    {
+      "id": "p51-t2",
+      "section_id": "umnozhenie-delenie",
+      "subsection_id": "ustnoe-delenie-360-30",
+      "book_page": 51,
+      "pdf_page": 52,
+      "number": "2",
+      "type": "division",
+      "answer_entry": "number",
+      "prompt": "Вычисли устно.",
+      "items": [
+        {
+          "id": "a",
+          "prompt": "4800:600",
+          "answer": 8
+        },
+        {
+          "id": "b",
+          "prompt": "25000:50",
+          "answer": 500
+        },
+        {
+          "id": "c",
+          "prompt": "60000:1200",
+          "answer": 50
+        },
+        {
+          "id": "d",
+          "prompt": "390000:130000",
+          "answer": 3
+        },
+        {
+          "id": "e",
+          "prompt": "1000000:25000",
+          "answer": 40
+        }
+      ],
+      "generator": "Устное деление чисел с нулями.",
+      "manual": false,
+      "generatable": true
+    },
+    {
+      "id": "p52-t3",
+      "section_id": "umnozhenie-delenie",
+      "subsection_id": "ustnoe-delenie-360-30",
+      "book_page": 52,
+      "pdf_page": 53,
+      "number": "3",
+      "type": "compare",
+      "answer_entry": "choice_and_number",
+      "prompt": "Обведи большую величину и запиши, во сколько раз она больше.",
+      "items": [
+        {
+          "id": "a",
+          "prompt": "80 т  и  1600 кг",
+          "larger": "80 т",
+          "times": 50,
+          "reason": "80 т=80000 кг, 80000:1600=50"
+        },
+        {
+          "id": "b",
+          "prompt": "60 ц  и  6000 т",
+          "larger": "6000 т",
+          "times": 1000,
+          "reason": "60 ц=6 т, 6000:6=1000"
+        },
+        {
+          "id": "c",
+          "prompt": "800 дм  и  8 км",
+          "larger": "8 км",
+          "times": 100,
+          "reason": "8 км=80000 дм, 80000:800=100"
+        },
+        {
+          "id": "d",
+          "prompt": "4 ч  и  480 мин",
+          "larger": "480 мин",
+          "times": 2,
+          "reason": "4 ч=240 мин, 480:240=2"
+        },
+        {
+          "id": "e",
+          "prompt": "1/2 дм  и  600 мм",
+          "larger": "600 мм",
+          "times": 12,
+          "reason": "1/2 дм=50 мм, 600:50=12"
+        },
+        {
+          "id": "f",
+          "prompt": "7000 г  и  1/5 кг",
+          "larger": "7000 г",
+          "times": 35,
+          "reason": "1/5 кг=200 г, 7000:200=35"
+        },
+        {
+          "id": "g",
+          "prompt": "1/6 сут.  и  360 ч",
+          "larger": "360 ч",
+          "times": 90,
+          "reason": "1/6 сут.=4 ч, 360:4=90"
+        }
+      ],
+      "generator": "Сравнение величин после перевода; кратность.",
+      "manual": false,
+      "generatable": true
+    },
+    {
+      "id": "p53-t1",
+      "section_id": "umnozhenie-delenie",
+      "subsection_id": "ustnoe-delenie-ostatok",
+      "book_page": 53,
+      "pdf_page": 54,
+      "number": "1",
+      "type": "division_remainder",
+      "answer_entry": "quotient_remainder",
+      "prompt": "Выполни деление на 10 и на 100 с остатком.",
+      "items": [
+        {
+          "id": "a",
+          "prompt": "48:10",
+          "answer": {
+            "q": 4,
+            "r": 8
+          }
+        },
+        {
+          "id": "b",
+          "prompt": "37:10",
+          "answer": {
+            "q": 3,
+            "r": 7
+          }
+        },
+        {
+          "id": "c",
+          "prompt": "3945:10",
+          "answer": {
+            "q": 394,
+            "r": 5
+          }
+        },
+        {
+          "id": "d",
+          "prompt": "65478:10",
+          "answer": {
+            "q": 6547,
+            "r": 8
+          }
+        },
+        {
+          "id": "e",
+          "prompt": "9547:100",
+          "answer": {
+            "q": 95,
+            "r": 47
+          }
+        },
+        {
+          "id": "f",
+          "prompt": "8037:100",
+          "answer": {
+            "q": 80,
+            "r": 37
+          }
+        }
+      ],
+      "generator": "Деление на 10^n: частное — число без последних n цифр, остаток — эти цифры.",
+      "manual": false,
+      "generatable": true
+    },
+    {
+      "id": "p54-t2",
+      "section_id": "umnozhenie-delenie",
+      "subsection_id": "ustnoe-delenie-ostatok",
+      "book_page": 54,
+      "pdf_page": 55,
+      "number": "2",
+      "type": "expression",
+      "answer_entry": "number",
+      "prompt": "Восстанови делимое по частному, делителю и остатку: делимое = частное·делитель + остаток.",
+      "items": [
+        {
+          "id": "a",
+          "prompt": "частное 968, делитель 10, остаток 9",
+          "answer": 9689
+        },
+        {
+          "id": "b",
+          "prompt": "частное 5460, делитель 100, остаток 18",
+          "answer": 546018
+        },
+        {
+          "id": "c",
+          "prompt": "частное 570, делитель 1000, остаток 578",
+          "answer": 570578
+        },
+        {
+          "id": "d",
+          "prompt": "частное 54, делитель 10000, остаток 226",
+          "answer": 540226
+        }
+      ],
+      "generator": "Делимое = q·d + r.",
+      "manual": false,
+      "generatable": true
+    },
+    {
+      "id": "p54-t3",
+      "section_id": "umnozhenie-delenie",
+      "subsection_id": "ustnoe-delenie-ostatok",
+      "book_page": 54,
+      "pdf_page": 55,
+      "number": "3",
+      "type": "division_remainder",
+      "answer_entry": "quotient_remainder",
+      "prompt": "Выполни деление с остатком. Образец: 571:80=7 ост. 11.",
+      "items": [
+        {
+          "id": "a",
+          "prompt": "340:40",
+          "answer": {
+            "q": 8,
+            "r": 20
+          }
+        },
+        {
+          "id": "b",
+          "prompt": "630:80",
+          "answer": {
+            "q": 7,
+            "r": 70
+          }
+        }
+      ],
+      "generator": "Деление с остатком, проверка q·d+r.",
+      "manual": false,
+      "generatable": true
+    },
+    {
+      "id": "p54-t4",
+      "section_id": "umnozhenie-delenie",
+      "subsection_id": "ustnoe-delenie-ostatok",
+      "book_page": 54,
+      "pdf_page": 55,
+      "number": "4",
+      "type": "true_false",
+      "answer_entry": "index_list",
+      "prompt": "Отметь верные утверждения об остатке.",
+      "items": [
+        {
+          "id": "a",
+          "prompt": "При делении на 10 можно получить остатки: 10, 9, 7, 6, 5, 4, 3, 2, 1.",
+          "answer": false,
+          "reason": "Остаток 10 невозможен (остаток < делителя); нет 0 и 8."
+        },
+        {
+          "id": "b",
+          "prompt": "Остаток всегда меньше делителя.",
+          "answer": true
+        },
+        {
+          "id": "c",
+          "prompt": "Остаток всегда меньше делимого.",
+          "answer": false,
+          "note": "В школьном курсе иногда отмечают как верное; строго это неверно при частном 0 (например, 3:5, остаток равен делимому). В эталоне — неверно, с пометкой.",
+          "acceptable_school": true
+        }
+      ],
+      "note": "Пункт про «остаток всегда меньше делимого» педагогически спорный.",
+      "generator": "Свойства остатка.",
+      "manual": false,
+      "generatable": true
+    },
+    {
+      "id": "p55-t1",
+      "section_id": "umnozhenie-delenie",
+      "subsection_id": "pism-delenie-nuli",
+      "book_page": 55,
+      "pdf_page": 56,
+      "number": "1",
+      "type": "first_incomplete_dividend",
+      "answer_entry": "dividend_and_digits",
+      "prompt": "Проверь, правильно ли определены количество цифр в частном и первое неполное делимое. Обозначь ✓ верные, исправь неверные.",
+      "items": [
+        {
+          "id": "a",
+          "prompt": "656000:20; в книге дуга над 65, 4 точки",
+          "given": {
+            "first": 65,
+            "digits": 4
+          },
+          "correct": false,
+          "answer": {
+            "first": 65,
+            "digits": 5,
+            "q": 32800,
+            "r": 0
+          },
+          "reason": "Первое неполное верно (65), цифр в частном 5, не 4."
+        },
+        {
+          "id": "b",
+          "prompt": "16560:90; дуга над 165, 3 точки",
+          "given": {
+            "first": 165,
+            "digits": 3
+          },
+          "correct": true,
+          "answer": {
+            "first": 165,
+            "digits": 3,
+            "q": 184,
+            "r": 0
+          }
+        },
+        {
+          "id": "c",
+          "prompt": "76380:700; дуга над 763, 3 точки",
+          "given": {
+            "first": 763,
+            "digits": 3
+          },
+          "correct": true,
+          "answer": {
+            "first": 763,
+            "digits": 3,
+            "q": 109,
+            "r": 80
+          }
+        },
+        {
+          "id": "d",
+          "prompt": "58940:30; дуга над 5, 6 точек",
+          "given": {
+            "first": 5,
+            "digits": 6
+          },
+          "correct": false,
+          "answer": {
+            "first": 58,
+            "digits": 4,
+            "q": 1964,
+            "r": 20
+          }
+        },
+        {
+          "id": "e",
+          "prompt": "66780:2000; дуга над 667, 3 точки",
+          "given": {
+            "first": 667,
+            "digits": 3
+          },
+          "correct": false,
+          "answer": {
+            "first": 6678,
+            "digits": 2,
+            "q": 33,
+            "r": 780
+          }
+        },
+        {
+          "id": "f",
+          "prompt": "890510:400; дуга над 89, 5 точек",
+          "given": {
+            "first": 89,
+            "digits": 5
+          },
+          "correct": false,
+          "answer": {
+            "first": 890,
+            "digits": 4,
+            "q": 2226,
+            "r": 110
+          }
+        }
+      ],
+      "generator": "Первое неполное делимое — минимальный префикс ≥ делителя; число цифр частного = 1 + число оставшихся цифр.",
+      "manual": false,
+      "generatable": true
+    },
+    {
+      "id": "p55-t2",
+      "section_id": "umnozhenie-delenie",
+      "subsection_id": "pism-delenie-nuli",
+      "book_page": 55,
+      "pdf_page": 56,
+      "number": "2",
+      "type": "first_incomplete_dividend",
+      "answer_entry": "dividend_and_digits",
+      "prompt": "Определи первое неполное делимое и количество цифр в значении частного. Образец: 57800:60 → первое 578, 3 цифры (963 ост. 20).",
+      "items": [
+        {
+          "id": "a",
+          "prompt": "24780:40",
+          "answer": {
+            "first": 247,
+            "digits": 3,
+            "q": 619,
+            "r": 20
+          }
+        },
+        {
+          "id": "b",
+          "prompt": "91460:30",
+          "answer": {
+            "first": 91,
+            "digits": 4,
+            "q": 3048,
+            "r": 20
+          }
+        },
+        {
+          "id": "c",
+          "prompt": "289005:50",
+          "answer": {
+            "first": 289,
+            "digits": 4,
+            "q": 5780,
+            "r": 5
+          }
+        },
+        {
+          "id": "d",
+          "prompt": "670080:80",
+          "answer": {
+            "first": 670,
+            "digits": 4,
+            "q": 8376,
+            "r": 0
+          }
+        },
+        {
+          "id": "e",
+          "prompt": "4900060:60",
+          "answer": {
+            "first": 490,
+            "digits": 5,
+            "q": 81667,
+            "r": 40
+          }
+        },
+        {
+          "id": "f",
+          "prompt": "270010:90",
+          "answer": {
+            "first": 270,
+            "digits": 4,
+            "q": 3000,
+            "r": 10
+          }
+        },
+        {
+          "id": "g",
+          "prompt": "780950:900",
+          "answer": {
+            "first": 7809,
+            "digits": 3,
+            "q": 867,
+            "r": 650
+          }
+        },
+        {
+          "id": "h",
+          "prompt": "405090:700",
+          "answer": {
+            "first": 4050,
+            "digits": 3,
+            "q": 578,
+            "r": 490
+          }
+        },
+        {
+          "id": "i",
+          "prompt": "1230006:7000",
+          "answer": {
+            "first": 12300,
+            "digits": 3,
+            "q": 175,
+            "r": 5006
+          }
+        },
+        {
+          "id": "j",
+          "prompt": "243560:4000",
+          "answer": {
+            "first": 24356,
+            "digits": 2,
+            "q": 60,
+            "r": 3560
+          }
+        }
+      ],
+      "generator": "То же правило, что в №1.",
+      "manual": false,
+      "generatable": true
+    },
+    {
+      "id": "p56-t3",
+      "section_id": "umnozhenie-delenie",
+      "subsection_id": "pism-delenie-nuli",
+      "book_page": 56,
+      "pdf_page": 57,
+      "number": "3",
+      "type": "division_remainder",
+      "answer_entry": "quotient_remainder",
+      "prompt": "Выполни письменное деление на число с нулями.",
+      "items": [
+        {
+          "id": "a",
+          "prompt": "2345:20",
+          "answer": {
+            "q": 117,
+            "r": 5
+          }
+        },
+        {
+          "id": "b",
+          "prompt": "870906:2000",
+          "answer": {
+            "q": 435,
+            "r": 906
+          }
+        }
+      ],
+      "generator": "Письменное деление на 20, 2000, …",
+      "manual": false,
+      "generatable": true
+    },
+    {
+      "id": "p56-t4",
+      "section_id": "umnozhenie-delenie",
+      "subsection_id": "pism-delenie-nuli",
+      "book_page": 56,
+      "pdf_page": 57,
+      "number": "4",
+      "type": "equation",
+      "answer_entry": "number",
+      "prompt": "Реши уравнение: 30 · x = 198000 : 60.",
+      "answer": 110,
+      "generator": "Сначала правая часть, затем x = произведение / 30.",
+      "manual": false,
+      "generatable": true
+    },
+    {
+      "id": "p57-t1",
+      "section_id": "umnozhenie-delenie",
+      "subsection_id": "umn-chisla-na-summu",
+      "book_page": 57,
+      "pdf_page": 58,
+      "number": "1",
+      "type": "convenient_method",
+      "answer_entry": "index_list",
+      "prompt": "Отметь удобные способы умножения числа на сумму (25·15, 16·18, 24·12). Все семь равенств арифметически верны (375 или 288).",
+      "items": [
+        {
+          "id": "all",
+          "prompt": "Все тождества верны",
+          "values": {
+            "25·(10+5)=25·10+25·5=375": true,
+            "25·(13+2)=25·13+25·2=375": true,
+            "25·(6+9)=25·6+25·9=375": true,
+            "16·(10+8)=16·10+16·8=288": true,
+            "16·(9+9)=16·9+16·9=288": true,
+            "24·(5+7)=24·5+24·7=288": true,
+            "24·(6+6)=24·6+24·6=288": true
+          }
+        },
+        {
+          "id": "convenient",
+          "prompt": "Рекомендуемые как «удобные» (методически)",
+          "answer": [
+            "25·(10+5)",
+            "16·(10+8)",
+            "16·(9+9)",
+            "24·(6+6)"
+          ],
+          "less_convenient": [
+            "25·(13+2)",
+            "25·(6+9)",
+            "24·(5+7)"
+          ]
+        }
+      ],
+      "manual": true,
+      "generatable": true,
+      "manual_note": "Автоматически можно проверить только правильность равенств (все верны). Выбор «удобного» способа субъективен; в эталоне — разложение через 10+… или равные слагаемые.",
+      "generator": "Распределительное свойство a·(b+c)=a·b+a·c."
+    },
+    {
+      "id": "p58-t1",
+      "section_id": "umnozhenie-delenie",
+      "subsection_id": "umn-vida-18-12",
+      "book_page": 58,
+      "pdf_page": 59,
+      "number": "1",
+      "type": "expression",
+      "answer_entry": "number",
+      "prompt": "Выполни письменное умножение на двузначное (и многозначное).",
+      "items": [
+        {
+          "id": "a",
+          "prompt": "54·67",
+          "answer": 3618
+        },
+        {
+          "id": "b",
+          "prompt": "74·26",
+          "answer": 1924
+        },
+        {
+          "id": "c",
+          "prompt": "598·87",
+          "answer": 52026
+        },
+        {
+          "id": "d",
+          "prompt": "26·968",
+          "answer": 25168
+        },
+        {
+          "id": "e",
+          "prompt": "324·224",
+          "answer": 72576
+        },
+        {
+          "id": "f",
+          "prompt": "223·149",
+          "answer": 33227
+        },
+        {
+          "id": "g",
+          "prompt": "1247·345",
+          "answer": 430215
+        },
+        {
+          "id": "h",
+          "prompt": "3207·256",
+          "answer": 820992
+        }
+      ],
+      "generator": "Письменное умножение на дву- и трёхзначное.",
+      "manual": false,
+      "generatable": true
+    },
+    {
+      "id": "p58-t2",
+      "section_id": "umnozhenie-delenie",
+      "subsection_id": "umn-vida-18-12",
+      "book_page": 58,
+      "pdf_page": 59,
+      "number": "2",
+      "type": "expression",
+      "answer_entry": "number",
+      "prompt": "Вычисли (продолжение на с. 59).",
+      "items": [
+        {
+          "id": "a",
+          "book_page": 58,
+          "prompt": "240 · (32 + 28 · 39)",
+          "answer": 269760
+        },
+        {
+          "id": "b",
+          "book_page": 59,
+          "pdf_page": 60,
+          "prompt": "(536800 : 40 − 13228) · 5090",
+          "answer": 977280
+        },
+        {
+          "id": "c",
+          "book_page": 59,
+          "pdf_page": 60,
+          "prompt": "674 · 580 − 998640 : 40",
+          "answer": 365954
+        }
+      ],
+      "generator": "Выражения со скобками, × и : многозначных.",
+      "manual": false,
+      "generatable": true
+    },
+    {
+      "id": "p60-t1",
+      "section_id": "umnozhenie-delenie",
+      "subsection_id": "neizvestnoe-po-dvum-raznostyam",
+      "book_page": 60,
+      "pdf_page": 61,
+      "number": "1",
+      "type": "word_problem",
+      "answer_entry": "number",
+      "prompt": "С первого участка 15 одинаковых мешков лука, со второго 20 таких же. Со второго собрали на 150 кг больше. Сколько килограммов лука с каждого участка?",
+      "items": [
+        {
+          "id": "one",
+          "prompt": "В 1 мешке",
+          "answer": 30,
+          "unit": "кг"
+        },
+        {
+          "id": "first",
+          "prompt": "С первого (15 мешков)",
+          "answer": 450,
+          "unit": "кг"
+        },
+        {
+          "id": "second",
+          "prompt": "Со второго (20 мешков)",
+          "answer": 600,
+          "unit": "кг"
+        },
+        {
+          "id": "useful",
+          "prompt": "Полезные вопросы: на сколько больше мешков со второго (5); сколько кг в 1 мешке."
+        }
+      ],
+      "generator": "Две разности: разность количеств и разность масс дают массу одной единицы.",
+      "manual": false,
+      "generatable": true
+    },
+    {
+      "id": "p60-t2",
+      "section_id": "umnozhenie-delenie",
+      "subsection_id": "neizvestnoe-po-dvum-raznostyam",
+      "book_page": 60,
+      "pdf_page": 61,
+      "number": "2",
+      "type": "word_problem",
+      "answer_entry": "number",
+      "prompt": "Первый кусок ткани 16 м стоит на 40 р. дороже, чем второй в 12 м. Сколько стоит каждый кусок? Шаги на с. 61.",
+      "items": [
+        {
+          "id": "step1",
+          "book_page": 61,
+          "prompt": "На сколько метров первый больше",
+          "answer": 4,
+          "unit": "м"
+        },
+        {
+          "id": "step2",
+          "book_page": 61,
+          "prompt": "Цена 1 м",
+          "answer": 10,
+          "unit": "р."
+        },
+        {
+          "id": "step3",
+          "book_page": 61,
+          "prompt": "Первый кусок",
+          "answer": 160,
+          "unit": "р."
+        },
+        {
+          "id": "step4",
+          "book_page": 61,
+          "prompt": "Второй кусок",
+          "answer": 120,
+          "unit": "р."
+        }
+      ],
+      "generator": "Разность длин и разность стоимостей дают цену метра.",
+      "manual": false,
+      "generatable": true
+    },
+    {
+      "id": "p61-t3",
+      "section_id": "umnozhenie-delenie",
+      "subsection_id": "neizvestnoe-po-dvum-raznostyam",
+      "book_page": 61,
+      "pdf_page": 62,
+      "number": "3",
+      "type": "word_problem",
+      "answer_entry": "number",
+      "prompt": "Саша купил 5 ручек с синим стержнем и 3 ручки с красным стержнем. За красные он заплатил на 16 р. меньше, чем за синие. Сколько стоят красные ручки? Сколько — синие?",
+      "items": [
+        {
+          "id": "price",
+          "prompt": "Цена одной ручки (допущение: одинаковая)",
+          "answer": 8,
+          "unit": "р."
+        },
+        {
+          "id": "blue",
+          "prompt": "Синие (5 шт.)",
+          "answer": 40,
+          "unit": "р."
+        },
+        {
+          "id": "red",
+          "prompt": "Красные (3 шт.)",
+          "answer": 24,
+          "unit": "р."
+        }
+      ],
+      "note": "По тексту два неизвестных (цены разных цветов). Задача решается, если цена одной ручки одинакова: (5−3)·x=16, x=8; синие 40 р., красные 24 р. Допущение указано явно.",
+      "generator": "Две разности при равной цене единицы: разность количеств и разность сумм.",
+      "manual": false,
+      "generatable": true
+    },
+    {
+      "id": "p62-t1",
+      "section_id": "umnozhenie-delenie",
+      "subsection_id": "pism-del-na-dvuznachnoe",
+      "book_page": 62,
+      "pdf_page": 63,
+      "number": "1",
+      "type": "division_remainder",
+      "answer_entry": "quotient_remainder",
+      "prompt": "Выполни письменное деление на двузначное (с остатком).",
+      "items": [
+        {
+          "id": "a",
+          "prompt": "740:56",
+          "answer": {
+            "q": 13,
+            "r": 12
+          }
+        },
+        {
+          "id": "b",
+          "prompt": "1679:85",
+          "answer": {
+            "q": 19,
+            "r": 64
+          }
+        }
+      ],
+      "generator": "Письменное деление на двузначное с остатком.",
+      "manual": false,
+      "generatable": true
+    },
+    {
+      "id": "p62-t2",
+      "section_id": "umnozhenie-delenie",
+      "subsection_id": "pism-del-na-dvuznachnoe",
+      "book_page": 62,
+      "pdf_page": 63,
+      "number": "2",
+      "type": "division",
+      "answer_entry": "number",
+      "prompt": "Выполни письменное деление на двузначное (без остатка).",
+      "items": [
+        {
+          "id": "a",
+          "prompt": "1734:34",
+          "answer": 51
+        },
+        {
+          "id": "b",
+          "prompt": "3015:67",
+          "answer": 45
+        }
+      ],
+      "generator": "Письменное деление на двузначное нацело.",
+      "manual": false,
+      "generatable": true
+    },
+    {
+      "id": "p62-t3",
+      "section_id": "umnozhenie-delenie",
+      "subsection_id": "pism-del-na-dvuznachnoe",
+      "book_page": 62,
+      "pdf_page": 63,
+      "number": "3",
+      "type": "order_of_operations",
+      "answer_entry": "order_and_number",
+      "prompt": "Расставь порядок действий и вычисли: 502007 − (988084 − 198064) : 38 · 14.",
+      "items": [
+        {
+          "id": "order",
+          "prompt": "Порядок",
+          "answer": "① вычитание в скобках, ② деление, ③ умножение, ④ вычитание из 502007"
+        },
+        {
+          "id": "value",
+          "prompt": "Значение",
+          "answer": 210947
+        }
+      ],
+      "generator": "Порядок действий: скобки, затем : и · слева направо, затем −.",
+      "manual": false,
+      "generatable": true
+    },
+    {
+      "id": "p63-t1",
+      "section_id": "umnozhenie-delenie",
+      "subsection_id": "dvizhenie-odno-napravlenie",
+      "book_page": 63,
+      "pdf_page": 64,
+      "number": "1",
+      "type": "word_problem",
+      "answer_entry": "number",
+      "prompt": "В 9:00 два пешехода пошли в одном направлении со скоростями 6 км/ч и 4 км/ч. В 13:00 первый догнал второго. Какое расстояние прошёл первый? (И связанные промежуточные величины.)",
+      "items": [
+        {
+          "id": "time",
+          "prompt": "Время до встречи / догона",
+          "answer": 4,
+          "unit": "ч"
+        },
+        {
+          "id": "v_close",
+          "prompt": "Скорость сближения",
+          "answer": 2,
+          "unit": "км/ч"
+        },
+        {
+          "id": "gap",
+          "prompt": "Начальное расстояние (если спрашивают)",
+          "answer": 8,
+          "unit": "км"
+        },
+        {
+          "id": "first",
+          "prompt": "Путь первого",
+          "answer": 24,
+          "unit": "км"
+        }
+      ],
+      "generator": "Движение в одном направлении: t = s / (v1−v2), путь = v1·t.",
+      "manual": false,
+      "generatable": true
+    }
+  ],
+  "stats": {
+    "n_tasks": 113,
+    "n_manual": 11,
+    "n_auto": 102,
+    "n_generatable": 107,
+    "n_book_error": 2,
+    "by_section": {
+      "povtorenie": {
+        "n": 20,
+        "manual": 1
+      },
+      "mnogoznachnye": {
+        "n": 20,
+        "manual": 4
+      },
+      "diagrammy": {
+        "n": 4,
+        "manual": 1
+      },
+      "ploshchad": {
+        "n": 4,
+        "manual": 1
+      },
+      "slozhenie-vychitanie": {
+        "n": 6,
+        "manual": 0
+      },
+      "dvizhenie": {
+        "n": 14,
+        "manual": 2
+      },
+      "umnozhenie-delenie": {
+        "n": 45,
+        "manual": 2
+      }
+    }
+  }
+}
